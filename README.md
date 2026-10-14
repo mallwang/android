@@ -29,5 +29,6 @@ npm test
 | App | Description |
 |-----|-------------|
 | [star-wars-films](apps/star-wars-films/modernized/README.md) | SWAPI browser: films, people, planets, favorites |
+| [woistwas](apps/woistwas/modernized/README.md) | Find places by name, zip code or GPS position (Germany) |
 
 Plan and status of the remaining apps: [docs](docs/legacy-modernization.md).
