@@ -1,0 +1,9 @@
+coverage/
+dist/
+documentation/
+lib/
+node_modules/
+platforms/
+plugins/
+resources/
+www/
