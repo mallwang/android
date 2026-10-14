@@ -50,10 +50,11 @@ apps/
 
 | App | Moved | Modernized | Notes |
 |-----|:---:|:---:|-------|
-| star-wars-films | no | no | |
+| star-wars-films | yes | yes | Web build + 5 unit tests green; Android project added and synced, APK not built (no Android SDK). |
 | woistwas | no | no | |
 | myannoonline | no | no | |
 
 ## Log
 
 - 2026-10-14: Repo set up like the Java repo (AGENTS.md, README, .gitignore, this plan). Inventory of the 5 entries in `legacy/`. Nothing moved or modified.
+- 2026-10-14: `star-wars-films` modernized (Angular 22, Ionic 9, Capacitor 8). Three list pages collapsed into one generic page, `@ionic/storage` replaced by `@capacitor/preferences`, EmailComposer replaced by a `mailto:` link, unfavorite bug fixed (`splice(-1)` removed the last entry when the film was not a favorite). No Android SDK here: `npx cap add android` and `cap sync` ran, but no APK was built or run on a device.
