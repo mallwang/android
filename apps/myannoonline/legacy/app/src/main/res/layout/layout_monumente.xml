@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MONUMENTE -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- MONUMENTE -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/kaiserdom2"
+            android:drawableRight="@drawable/kaiserdom2"
+            android:text="@string/str_kat_monumente"
+            android:padding="20px"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <!-- Trennlinie -->
+        <View
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <!-- Mon 1 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Bibliothek -->
+                <ImageButton
+                    android:id="@+id/btn_mon_bibliothek"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/monumente_bibliothek"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Kaiserdom -->
+                <ImageButton
+                    android:id="@+id/btn_mon_kaiserdom"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/monumente_kaiserdom"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Amphitheater -->
+                <ImageButton
+                    android:id="@+id/btn_mon_amphitheater"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/monumente_amphietheater"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Festung -->
+                <ImageButton
+                    android:id="@+id/btn_mon_festung"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/monumente_festung"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- GÄRTEN -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/garten"
+            android:drawableRight="@drawable/garten"
+            android:text="@string/str_kat_gaerten"
+            android:padding="20px"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <!-- Trennlinie -->
+        <View
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <!-- Gaerten 1 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Apfelgarten -->
+                <ImageButton
+                    android:id="@+id/btn_mon_apfelgarten"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/monumente_apfelgarten"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Weizengarten -->
+                <ImageButton
+                    android:id="@+id/btn_mon_weizengarten"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/monumente_weizengarten"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Hanfgarten -->
+                <ImageButton
+                    android:id="@+id/btn_mon_hanfgarten"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/monumente_hanfgarten"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- Gaerten 2 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Kräutergarten -->
+                <ImageButton
+                    android:id="@+id/btn_mon_kraeutergarten"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/monumente_kraeutergarten"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Traubengarten -->
+                <ImageButton
+                    android:id="@+id/btn_mon_traubengarten"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/monumente_traubengarten"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Bienenwachsgarten -->
+                <ImageButton
+                    android:id="@+id/btn_mon_bienenwachsgarten"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/monumente_bienenwachsgarten"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

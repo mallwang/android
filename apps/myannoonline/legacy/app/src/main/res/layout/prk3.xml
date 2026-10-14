@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PRODUKTIONSKETTEN 2 GEBÄUDE -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Erstes Gebäude -->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10px"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                >
+
+                <!-- Einwohner -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb1_ew"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:background="#ffdedad9"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginTop="20px"
+                    android:layout_marginBottom="5px" />
+
+                <!-- Felder -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb1_flds"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginBottom="5px" />
+
+                <!-- Unterhalt -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb1_unt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/cost"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:background="#ffdedad9"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginBottom="5px"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    />
+
+                <!-- Radius -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb1_rds"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:background="#ffdedad9"
+                    android:drawableLeft="@drawable/radius"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginBottom="5px" />
+
+                <!-- Platzbedarf -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb1_grsse"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/groesse"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:background="#ffdedad9"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginBottom="20px" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:paddingBottom="20px">
+
+                <!-- Image -->
+                <ImageView
+                    android:id="@+id/iv_gblayout3_gb1_img"
+                    android:src="@drawable/anno_online_logo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15px" />
+
+                <!-- Gebäudebezeichnung -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb1_bez"
+                    android:text="@string/str_dummy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    />
+
+                <!-- Anzahl -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb1_anzahl"
+                    android:text="@string/str_dummy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    />
+
+                <!-- Bild der Ware -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb1_produkt"
+                    android:text="@string/str_dummy"
+                    android:drawableTop="@drawable/zimmermann"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10px"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                >
+
+                <!-- Gold -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb1_gold"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginTop="20px"
+                    android:layout_marginBottom="5px"
+                    android:gravity="right" />
+
+                <!-- Holz -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb1_holz"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginBottom="5px"
+                    />
+
+                <!-- Stein -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb1_stein"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginBottom="5px"
+                    />
+
+                <!-- Werkzeuge -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb1_wkz"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginBottom="5px"
+                    />
+
+                <!-- Glas -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb1_glas"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginBottom="20px"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Trennbalken -->
+        <View
+            android:layout_marginTop="10px"
+            android:layout_marginRight="20px"
+            android:layout_marginLeft="20px"
+            android:layout_marginBottom="10px"
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="@android:color/darker_gray"/>
+
+        <!-- Zweites Gebäude -->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10px"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                >
+
+                <!-- Einwohner -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb2_ew"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:background="#ffdedad9"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginTop="20px"
+                    android:layout_marginBottom="5px" />
+
+                <!-- Felder -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb2_flds"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginBottom="5px" />
+
+                <!-- Unterhalt -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb2_unt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/cost"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:background="#ffdedad9"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginBottom="5px"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    />
+
+                <!-- Radius -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb2_rds"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:drawableLeft="@drawable/radius"
+                    android:background="#ffdedad9"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginBottom="5px" />
+
+                <!-- Platzbedarf -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb2_grsse"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/groesse"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:background="#ffdedad9"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginBottom="20px" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:paddingBottom="20px">
+
+                <!-- Image -->
+                <ImageView
+                    android:id="@+id/iv_gblayout3_gb2_img"
+                    android:src="@drawable/anno_online_logo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15px" />
+
+                <!-- Gebäudebezeichnung -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb2_bez"
+                    android:text="@string/str_dummy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    />
+
+                <!-- Anzahl -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb2_anzahl"
+                    android:text="@string/str_dummy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    />
+
+                <!-- Bild der Ware -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb2_produkt"
+                    android:text="@string/str_dummy"
+                    android:drawableTop="@drawable/zimmermann"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10px"
+                    />
+                />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                >
+
+                <!-- Gold -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb2_gold"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginTop="20px"
+                    android:layout_marginBottom="5px"
+                    android:gravity="right" />
+
+                <!-- Holz -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb2_holz"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginBottom="5px"
+                    />
+
+                <!-- Stein -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb2_stein"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginBottom="5px"
+                    />
+
+                <!-- Werkzeuge -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb2_wkz"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginBottom="5px"
+                    />
+
+                <!-- Glas -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb2_glas"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginBottom="20px"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Trennbalken -->
+        <View
+            android:layout_marginTop="10px"
+            android:layout_marginRight="20px"
+            android:layout_marginLeft="20px"
+            android:layout_marginBottom="10px"
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="@android:color/darker_gray"/>
+
+        <!-- Drittes Gebäude -->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10px"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                >
+
+                <!-- Einwohner -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb3_ew"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:background="#ffdedad9"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginTop="20px"
+                    android:layout_marginBottom="5px" />
+
+                <!-- Felder -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb3_flds"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginBottom="5px" />
+
+                <!-- Unterhalt -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb3_unt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/cost"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:background="#ffdedad9"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginBottom="5px"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    />
+
+                <!-- Radius -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb3_rds"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:drawableLeft="@drawable/radius"
+                    android:background="#ffdedad9"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginBottom="5px" />
+
+                <!-- Platzbedarf -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb3_grsse"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/groesse"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:background="#ffdedad9"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginBottom="20px" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:paddingBottom="20px">
+
+                <!-- Image -->
+                <ImageView
+                    android:id="@+id/iv_gblayout3_gb3_img"
+                    android:src="@drawable/anno_online_logo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15px" />
+
+                <!-- Gebäudebezeichnung -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb3_bez"
+                    android:text="@string/str_dummy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    />
+
+                <!-- Anzahl -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb3_anzahl"
+                    android:text="@string/str_dummy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    />
+
+                <!-- Bild der Ware -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb3_produkt"
+                    android:text="@string/str_dummy"
+                    android:drawableTop="@drawable/zimmermann"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10px"
+                    />
+                />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                >
+
+                <!-- Gold -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb3_gold"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginTop="20px"
+                    android:layout_marginBottom="5px"
+                    android:gravity="right" />
+
+                <!-- Holz -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb3_holz"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginBottom="5px"
+                    />
+
+                <!-- Stein -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb3_stein"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginBottom="5px"
+                    />
+
+                <!-- Werkzeuge -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb3_wkz"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginBottom="5px"
+                    />
+
+                <!-- Glas -->
+                <TextView
+                    android:id="@+id/tv_gblayout3_gb3_glas"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10px"
+                    android:paddingBottom="10px"
+                    android:paddingRight="20px"
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="5px"
+                    android:layout_marginRight="20px"
+                    android:layout_marginBottom="20px"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Trennbalken -->
+        <View
+            android:layout_marginTop="10px"
+            android:layout_marginRight="20px"
+            android:layout_marginLeft="20px"
+            android:layout_marginBottom="10px"
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="@android:color/darker_gray"/>
+
+        <!-- Button -->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+
+                <!-- Button -->
+                <Button
+                    android:id="@+id/btn_gblayout3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="OK"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

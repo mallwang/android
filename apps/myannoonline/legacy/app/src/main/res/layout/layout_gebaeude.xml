@@ -1,0 +1,1742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GEBÄUDE -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- INFRASTRUKTUR -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/buergerhaus"
+            android:drawableRight="@drawable/buergerhaus"
+            android:text="@string/str_kat_infrastruktur"
+            android:padding="20px"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <!-- Trennlinie -->
+        <View
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <!-- Infra 1 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Kontor -->
+                <ImageButton
+                    android:id="@+id/btn_gb_kontor"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/kontor_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Lagerhaus -->
+                <ImageButton
+                    android:id="@+id/btn_gb_lagerhaus"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/lagerhaus_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Leuchtturm -->
+                <ImageButton
+                    android:id="@+id/btn_gb_leuchtturm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/leuchtturm_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Schatzkammer -->
+                <ImageButton
+                    android:id="@+id/btn_gb_schatzkammer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/schatzkammer_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- Infra 2 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Bauernhaus -->
+                <ImageButton
+                    android:id="@+id/btn_gb_bauernhaus"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/bauernhaus_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Bürgerhaus -->
+                <ImageButton
+                    android:id="@+id/btn_gb_buergerhaus"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/handwerkerkate_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Patrizierhaus -->
+                <ImageButton
+                    android:id="@+id/btn_gb_patrizierhaus"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/patrizierhaus_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Adligenhaus -->
+                <ImageButton
+                    android:id="@+id/btn_gb_adligenhaus"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/adligenhaus_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- Infra 3 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Feldweg -->
+                <ImageButton
+                    android:id="@+id/btn_gb_weg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/weg_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Steinstraße -->
+                <ImageButton
+                    android:id="@+id/btn_gb_strasse"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/strasse_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Marktplatz -->
+                <ImageButton
+                    android:id="@+id/btn_gb_marktplatz"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/marktplatz_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Markthaus -->
+                <ImageButton
+                    android:id="@+id/btn_gb_markthaus"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/markthaus_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- Infra 4 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Werft -->
+                <ImageButton
+                    android:id="@+id/btn_gb_werft"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/werft_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Schiffsbauer -->
+                <ImageButton
+                    android:id="@+id/btn_gb_schiffsbauer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/schiffsbauer_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Proviantmagazin -->
+                <ImageButton
+                    android:id="@+id/btn_gb_proviantmagazin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/proviantmagazin_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Dock -->
+                <ImageButton
+                    android:id="@+id/btn_gb_dock"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/dock_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- Infra 5 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Gildenhalle -->
+                <ImageButton
+                    android:id="@+id/btn_gb_gildenhalle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/gildenhalle_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Pier -->
+                <ImageButton
+                    android:id="@+id/btn_gb_pier"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/pier_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Handelsspeicher -->
+                <ImageButton
+                    android:id="@+id/btn_gb_handelsspeicher"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/handelsspeicher_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Leer -->
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- ATTRAKTIONEN -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/gemeinschaft"
+            android:drawableRight="@drawable/gemeinschaft"
+            android:text="@string/str_kat_attraktionen"
+            android:padding="20px"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <!-- Trennlinie -->
+        <View
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <!-- Attrakt 1 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Brunnen -->
+                <ImageButton
+                    android:id="@+id/btn_gb_brunnen"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/brunnen_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Zimmermann -->
+                <ImageButton
+                    android:id="@+id/btn_gb_zimmermann"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/zimmermann_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Kapelle -->
+                <ImageButton
+                    android:id="@+id/btn_gb_kapelle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/kapelle_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- Attrakt 2 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Barbier -->
+                <ImageButton
+                    android:id="@+id/btn_gb_barbier"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/barbier_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Taverne -->
+                <ImageButton
+                    android:id="@+id/btn_gb_taverne"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/taverne_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Feuerwache -->
+                <ImageButton
+                    android:id="@+id/btn_gb_feuerwache"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/feuerwache_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- Attrakt 3 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Turnierplatz -->
+                <ImageButton
+                    android:id="@+id/btn_gb_turnierplatz"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/turnierplatz_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Schuldturm -->
+                <ImageButton
+                    android:id="@+id/btn_gb_schuldturm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/schuldturm_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Kirche -->
+                <ImageButton
+                    android:id="@+id/btn_gb_kirche"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/kirche_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- Attrakt 4 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Medikus -->
+                <ImageButton
+                    android:id="@+id/btn_gb_medikus"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/medikus_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- BAUMATERIAL -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/zimmermann"
+            android:drawableRight="@drawable/zimmermann"
+            android:text="@string/str_kat_baumaterialien"
+            android:padding="20px"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <!-- Trennlinie -->
+        <View
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <!-- Baumat 2 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Holzfäller -->
+                <ImageButton
+                    android:id="@+id/btn_gb_holzfaeller"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/holz_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Steinmetz -->
+                <ImageButton
+                    android:id="@+id/btn_gb_steinbruch"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/stein_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Eisenmine -->
+                <ImageButton
+                    android:id="@+id/btn_gb_eisenmine"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/eisenerz_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Köhlerhütte -->
+                <ImageButton
+                    android:id="@+id/btn_gb_koehlerhuette"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/kohle1_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- Baumat 2 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Kohlebergwerk -->
+                <ImageButton
+                    android:id="@+id/btn_gb_kohlebergwerk"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/kohle2_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Eisenschmelze -->
+                <ImageButton
+                    android:id="@+id/btn_gb_eisenschmelze"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/eisen_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Werkzeugmacher -->
+                <ImageButton
+                    android:id="@+id/btn_gb_werkzeugmacher"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/werkzeug_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Waldglashütte -->
+                <ImageButton
+                    android:id="@+id/btn_gb_waldglashuette"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/pottasche_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- Baumat 3 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Quarzbruch -->
+                <ImageButton
+                    android:id="@+id/btn_gb_quarzbruch"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/quarz_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Glasschmelze -->
+                <ImageButton
+                    android:id="@+id/btn_gb_glasschmelze"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/glas_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- NAHRUNG -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/nahrung"
+            android:drawableRight="@drawable/nahrung"
+            android:text="@string/str_kat_nahrung"
+            android:padding="20px"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <!-- Trennlinie -->
+        <View
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <!-- Nahr 1 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Fischerhütte -->
+                <ImageButton
+                    android:id="@+id/btn_gb_fischerhuette"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/fisch_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Weizenfarm -->
+                <ImageButton
+                    android:id="@+id/btn_gb_weizenfarm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/weizen_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Mühle -->
+                <ImageButton
+                    android:id="@+id/btn_gb_muehle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/mehl_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Bäckerei -->
+                <ImageButton
+                    android:id="@+id/btn_gb_baeckerei"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/brot_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- Nahr 2 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Rinderfarm -->
+                <ImageButton
+                    android:id="@+id/btn_gb_rinderfarm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/vieh_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Salzstock -->
+                <ImageButton
+                    android:id="@+id/btn_gb_salzstock"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/sole_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Saline -->
+                <ImageButton
+                    android:id="@+id/btn_gb_saline"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/salz_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Metzgerei -->
+                <ImageButton
+                    android:id="@+id/btn_gb_metzgerei"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/fleisch_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <!-- GETRÄNKE -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/getraenke"
+            android:drawableRight="@drawable/getraenke"
+            android:text="@string/str_kat_getraenke"
+            android:padding="20px"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <!-- Trennlinie -->
+        <View
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <!-- Getr 1 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Ziegenfarm -->
+                <ImageButton
+                    android:id="@+id/btn_gb_ziegenfarm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/milch_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Apfelhof -->
+                <ImageButton
+                    android:id="@+id/btn_gb_apfelhof"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/apfel_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Mosthof -->
+                <ImageButton
+                    android:id="@+id/btn_gb_mosthof"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/most_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Klostergarten -->
+                <ImageButton
+                    android:id="@+id/btn_gb_klostergarten"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/kraeuter_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- Getr 2 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Klosterbrauerei -->
+                <ImageButton
+                    android:id="@+id/btn_gb_klosterbrauerei"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/bier_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Weingut -->
+                <ImageButton
+                    android:id="@+id/btn_gb_weingut"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/trauben_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Fassküferei -->
+                <ImageButton
+                    android:id="@+id/btn_gb_fasskueferei"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/faesser_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Kelterei -->
+                <ImageButton
+                    android:id="@+id/btn_gb_kelterei"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/wein_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- KLEIDUNG -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/kleidung"
+            android:drawableRight="@drawable/kleidung"
+            android:text="@string/str_kat_kleidung"
+            android:padding="20px"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center" />
+        <!-- Trennlinie -->
+        <View
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <!-- Kleid 1 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Schaffarm -->
+                <ImageButton
+                    android:id="@+id/btn_gb_schaffarm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/wolle_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Spinnerei -->
+                <ImageButton
+                    android:id="@+id/btn_gb_spinnerei"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/wollgewaender_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Hanfplantage -->
+                <ImageButton
+                    android:id="@+id/btn_gb_hanfplantage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/hanf_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Webstube -->
+                <ImageButton
+                    android:id="@+id/btn_gb_webstube"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/leinengewaender_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- Kleid 2 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Schweinefarm -->
+                <ImageButton
+                    android:id="@+id/btn_gb_schweinefarm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/tierhaeute_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Gerberei -->
+                <ImageButton
+                    android:id="@+id/btn_gb_gerberei"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/lederwaemser_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Pelztierjäger -->
+                <ImageButton
+                    android:id="@+id/btn_gb_pelztierjaeger"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/pelze_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Kürschner -->
+                <ImageButton
+                    android:id="@+id/btn_gb_kuerschner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/pelzmaentel_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- Kleid 3 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Goldmine -->
+                <ImageButton
+                    android:id="@+id/btn_gb_goldmine"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/golderz_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Goldschmelze -->
+                <ImageButton
+                    android:id="@+id/btn_gb_goldschmelze"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/gold_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Seidenweberei -->
+                <ImageButton
+                    android:id="@+id/btn_gb_seidenweberei"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/brokatgewaender_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- BESITZ -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/besitz"
+            android:drawableRight="@drawable/besitz"
+            android:text="@string/str_kat_besitz"
+            android:padding="20px"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <!-- Trennlinie -->
+        <View
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <!-- Bes 1 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Papiermühle -->
+                <ImageButton
+                    android:id="@+id/btn_gb_papiermuehle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/papier_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Druckerei -->
+                <ImageButton
+                    android:id="@+id/btn_gb_druckerei"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/buecher_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Imkerei -->
+                <ImageButton
+                    android:id="@+id/btn_gb_imkerei"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/bienenwachs_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Lichtzieher -->
+                <ImageButton
+                    android:id="@+id/btn_gb_lichtzieher"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/kerzen_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- Bes 2 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Feinschmiede -->
+                <ImageButton
+                    android:id="@+id/btn_gb_feinschmiede"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/kerzenhalter_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Kupfermine -->
+                <ImageButton
+                    android:id="@+id/btn_gb_kupfermine"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/kupfererz_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Kupferschmelze -->
+                <ImageButton
+                    android:id="@+id/btn_gb_kupferschmelze"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/messing_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Brillenmacher -->
+                <ImageButton
+                    android:id="@+id/btn_gb_brillenmacher"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/brillen_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- SHOP -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/shop"
+            android:drawableRight="@drawable/shop"
+            android:text="@string/str_kat_shop"
+            android:padding="20px"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <!-- Trennlinie -->
+        <View
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <!-- Shop 1 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Tiefer Steinmetz -->
+                <ImageButton
+                    android:id="@+id/btn_gb_tiefer_steinmetz"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/stein_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Tiefe Eisenmine -->
+                <ImageButton
+                    android:id="@+id/btn_gb_tiefe_eisenmine"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/eisenerz_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Tiefer Quarzbruch -->
+                <ImageButton
+                    android:id="@+id/btn_gb_tiefer_quarzbruch"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/quarz_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Tiefes Kohlebergwerk -->
+                <ImageButton
+                    android:id="@+id/btn_gb_tiefes_kohlebergwerk"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/kohle_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- Shop 2 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Tiefer Salzstock -->
+                <ImageButton
+                    android:id="@+id/btn_gb_tiefer_salzstock"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/sole_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Tiefer Pelztierjäger -->
+                <ImageButton
+                    android:id="@+id/btn_gb_tiefer_pelztierjaeger"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/pelze_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Tiefe Goldmine -->
+                <ImageButton
+                    android:id="@+id/btn_gb_tiefe_goldmine"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/golderz_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Tiefe Kupfermine -->
+                <ImageButton
+                    android:id="@+id/btn_gb_tiefe_kupfermine"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/kupfererz_gross"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- Shop 3 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Verb. Weizenhof -->
+                <ImageButton
+                    android:id="@+id/btn_gb_verb_weizenhof"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/verbesserter_weizenhof_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Verwun. Mühle -->
+                <ImageButton
+                    android:id="@+id/btn_gb_verwun_muehle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/verwunschene_muehle_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Verb. Bäckerei -->
+                <ImageButton
+                    android:id="@+id/btn_gb_verb_baeckerei"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/verbesserte_baeckerei_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Verwun. Papiermühle -->
+                <ImageButton
+                    android:id="@+id/btn_gb_verwun_papiermuehle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/verwunschene_papiermuehle_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- Shop 4 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Gewürzbasar -->
+                <ImageButton
+                    android:id="@+id/btn_gb_gewuerzbasar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/gewuerzbasar_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Scheune -->
+                <ImageButton
+                    android:id="@+id/btn_gb_scheune"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/scheune_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Silo -->
+                <ImageButton
+                    android:id="@+id/btn_gb_silo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/silo_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Museum -->
+                <ImageButton
+                    android:id="@+id/btn_gb_museum"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/museum_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- Shop 5 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="10px"
+            android:layout_marginTop="5px"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Stadtarchiv -->
+                <ImageButton
+                    android:id="@+id/btn_gb_stadtarchiv"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/stadtarchiv_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Verb. Marktplatz -->
+                <ImageButton
+                    android:id="@+id/btn_gb_verb_marktplatz"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/verbesserter_marktplatz_gross2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Leer -->
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:padding="10px"
+                android:layout_height="150px"
+                android:layout_weight="0.30">
+                <!-- Leer -->
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

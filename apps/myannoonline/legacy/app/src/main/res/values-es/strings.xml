@@ -1,0 +1,318 @@
+<!-- SPANISCHE SPRACHDATEI -->
+<resources>
+    <!-- Titel der App -->
+    <string name="app_name">MyAnnoOnline</string>
+
+    <!-- Menüpunkte -->
+    <string name="menuepunkt1">Calculador del consumo</string>
+    <string name="menuepunkt2">Cadenas de Producción</string>
+    <string name="menuepunkt3">Gastos de Producción</string>
+    <string name="menuepunkt4">Edificios</string>
+    <string name="menuepunkt5">Ships</string>
+    <string name="menuepunkt6">Islas</string>
+    <string name="menuepunkt7">Monuments</string>
+    <string name="menuepunkt8">Consumptiontable</string>
+    <string name="menuepunkt9">Información Legal</string>
+    <string name="menuepunkt10">Cerrar</string>
+
+    <!-- NavigationDrawer Items -->
+    <string-array name="navigation">
+        <item>@string/menuepunkt1</item>
+        <item>@string/menuepunkt2</item>
+        <item>@string/menuepunkt3</item>
+        <item>@string/menuepunkt4</item>
+        <item>@string/menuepunkt5</item>
+        <item>@string/menuepunkt6</item>
+        <item>@string/menuepunkt7</item>
+        <item>@string/menuepunkt8</item>
+        <item>@string/menuepunkt9</item>
+        <item>@string/menuepunkt10</item>
+    </string-array>
+
+    <!-- Produktionsgebäude -->
+    <string name="str_gb_apfelhof">Granja de manzanos</string>
+    <string name="str_gb_apfelhoefe">Apple Farms</string>
+    <string name="str_gb_backstube">Panadería</string>
+    <string name="str_gb_backstuben">Bakeries</string>
+    <string name="str_gb_brillenmacher">Óptica</string>
+    <string name="str_gb_druckerei">Imprenta</string>
+    <string name="str_gb_druckereien">Printing Presses</string>
+    <string name="str_gb_eisenmine">Mina de hierro</string>
+    <string name="str_gb_eisenminen">Iron Mines</string>
+    <string name="str_gb_eisenschmelze">Fundidor de hierro</string>
+    <string name="str_gb_eisenschmelzen">Iron Ore Smelters</string>
+    <string name="str_gb_fasskueferei">Tonelería</string>
+    <string name="str_gb_fasskuefereien">Cooperages</string>
+    <string name="str_gb_feinschmiede">Metalistería</string>
+    <string name="str_gb_feinschmieden">Metalworks</string>
+    <string name="str_gb_fischer">Cabaña de pescador</string>
+    <string name="str_gb_fischer_mehrzahl">Fisherman\'s Huts</string>
+    <string name="str_gb_gerberei">Curtidor</string>
+    <string name="str_gb_gerbereien">Tanneries</string>
+    <string name="str_gb_glasschmelze">Fundidor de vidrio</string>
+    <string name="str_gb_goldmine">Mina de oro</string>
+    <string name="str_gb_goldminen">Gold Mines</string>
+    <string name="str_gb_goldschmelze">Fundidor de oro</string>
+    <string name="str_gb_goldschmelzen">Gold Ore Smelters</string>
+    <string name="str_gb_hanfplantage">Plantación de cáñamo</string>
+    <string name="str_gb_hanfplantagen">Hemp Plantations</string>
+    <string name="str_gb_holzfaeller">Cabaña de leñador</string>
+    <string name="str_gb_holzfaeller_mehrzahl">Lumberjacks</string>
+    <string name="str_gb_imker">Apiario</string>
+    <string name="str_gb_imker_mehrzahl">Apiaries</string>
+    <string name="str_gb_kelterei">Lagar</string>
+    <string name="str_gb_keltereien">Winepresses</string>
+    <string name="str_gb_klosterbrauerei">Destilería de monasterio</string>
+    <string name="str_gb_klosterbrauereien">Monastery Breweries</string>
+    <string name="str_gb_klostergarten">Jardín de monasterio</string>
+    <string name="str_gb_klostergaerten">Monastery Gardens</string>
+    <string name="str_gb_koehlerhuette">Horno de carbón vegetal</string>
+    <string name="str_gb_koehlerhuetten">Charcoal Burner\'s Huts</string>
+    <string name="str_gb_kohlebergwerk">Mina de carbón</string>
+    <string name="str_gb_kuerschner">Peletería</string>
+    <string name="str_gb_kuerschner_mehrzahl">Furrier\'s Workshops</string>
+    <string name="str_gb_kupfermine">Mina de cobre</string>
+    <string name="str_gb_kupferminen">Copper Mines</string>
+    <string name="str_gb_kupferschmelze">Fundición de cobre</string>
+    <string name="str_gb_kupferschmelzen">Copper Ore Smelters</string>
+    <string name="str_gb_lichtzieher">Cerería</string>
+    <string name="str_gb_lichtzieher_mehrzahl">Candle Foundries</string>
+    <string name="str_gb_metzger">Carnicería</string>
+    <string name="str_gb_metzger_mehrzahl">Butchers</string>
+    <string name="str_gb_mosthof">Prensa de sidra</string>
+    <string name="str_gb_mosthoefe">Cider Breweries</string>
+    <string name="str_gb_muehle">Molino</string>
+    <string name="str_gb_muehlen">Mills</string>
+    <string name="str_gb_papiermuehle">Papelera</string>
+    <string name="str_gb_papiermuehlen">Paper Mills</string>
+    <string name="str_gb_pelztierjaeger">Cabaña de trampero</string>
+    <string name="str_gb_pelztierjaeger_mehrzahl">Trapper\'s Lodges</string>
+    <string name="str_gb_quarzbruch">Cantera de cuarzo</string>
+    <string name="str_gb_quarzbrueche">Quartz Quarries</string>
+    <string name="str_gb_rinderfarm">Granja vacuna</string>
+    <string name="str_gb_rinderfarmen">Cattle Farms</string>
+    <string name="str_gb_saline">Salina</string>
+    <string name="str_gb_salinen">Salt Works</string>
+    <string name="str_gb_salzstock">Mina de sal</string>
+    <string name="str_gb_salzstoecke">Salt Mines</string>
+    <string name="str_gb_schaffarm">Granja ovina</string>
+    <string name="str_gb_schaffarmen">Sheep Farms</string>
+    <string name="str_gb_schweinefarm">Granja porcina</string>
+    <string name="str_gb_schweinefarmen">Pig Farm</string>
+    <string name="str_gb_seidenweberei">Fábrica de seda</string>
+    <string name="str_gb_seidenwebereien">Silk Weaving Mills</string>
+    <string name="str_gb_spinnerei">Cabaña de hilandero</string>
+    <string name="str_gb_spinnereien">Spinner\'s Huts</string>
+    <string name="str_gb_steinbruch">Mampostero</string>
+    <string name="str_gb_waldglashuette">Cristalería de bosque</string>
+    <string name="str_gb_webstube">Cabaña de tejedor</string>
+    <string name="str_gb_webstuben">Weaver\'s Huts</string>
+    <string name="str_gb_weingut">Plantación vitícula</string>
+    <string name="str_gb_weingueter">Vineyards</string>
+    <string name="str_gb_weizenfarm">Granja de trigo</string>
+    <string name="str_gb_weizenfarmen">Wheat Farms</string>
+    <string name="str_gb_werkzeugmacher">Herrero</string>
+    <string name="str_gb_ziegenfarm">Granja caprina</string>
+    <string name="str_gb_ziegenfarmen">Goat Farms</string>
+
+    <!-- Shop -->
+    <string name="str_gb_tiefer_steinmetz">Mampostero profundo</string>
+    <string name="str_gb_tiefe_eisenmine">Mina de hierro profunda</string>
+    <string name="str_gb_tiefer_quarzbruch">Cantera de cuarzo profunda</string>
+    <string name="str_gb_tiefes_kohlebergwerk">Mina de carbón profunda</string>
+    <string name="str_gb_tiefer_salzstock">Mina de sal profunda</string>
+    <string name="str_gb_tiefer_pelztierjäger">Cabaña de trampero profunda</string>
+    <string name="str_gb_tiefe_goldmine">Mina de oro profunda</string>
+    <string name="str_gb_tiefe_kupfermine">Mina de cubre profunda</string>
+    <string name="str_gb_verbesserter_weizenhof">Granja de trigo mejorada</string>
+    <string name="str_gb_verwunschene_muehle">Molino encantado</string>
+    <string name="str_gb_verwunschene_papiermuehle">Papelera mejorada</string>
+    <string name="str_gb_verbesserte_baeckerei">Panadería mejorada</string>
+    <string name="str_gb_gewuerzbasar">Bazar de especias</string>
+    <string name="str_gb_scheune">Granero</string>
+    <string name="str_gb_silo">Silo</string>
+    <string name="str_gb_museum">Museo</string>
+    <string name="str_gb_stadtarchiv">Archivos de la ciudad</string>
+    <string name="str_gb_verbesserter_marktplatz">Mercado mejorado</string>
+    <!--
+    Herrenhaus vergessen? -> Palacio
+    Vogelscheuche vergessen? -> Espantapájaros
+    Gewächshaus vergessen? -> Invernadero
+    Schäfergilde vergessen? -> Gremio de pastores
+    -->
+
+    <!-- Stadtgebäude -->
+    <string name="str_gb_adligenhaus">Residencia de imperiales</string>
+    <string name="str_gb_barbier">Barbero</string>
+    <string name="str_gb_bauernhaus">Residencia de pioneros</string>
+    <string name="str_gb_brunnen">Pozo</string>
+    <string name="str_gb_dock">Dársena</string>
+    <string name="str_gb_feuerwache">Cuartel de bomberos</string>
+    <string name="str_gb_gildenhalle">Casa del gremio</string>
+    <string name="str_gb_handelsspeicher">Puesto de comercio</string>
+    <string name="str_gb_handwerkerkate">Residencia de vasallos</string>
+    <string name="str_gb_kapelle">Capilla</string>
+    <string name="str_gb_kaufmannshaus">Residencia de mercaderes</string>
+    <string name="str_gb_kirche">Iglesia</string>
+    <string name="str_gb_kontor">Oficina del director</string>
+    <string name="str_gb_lagerhaus">Almacén</string>
+    <string name="str_gb_leuchtturm">Faro</string>
+    <string name="str_gb_markthaus">Distribuidor</string>
+    <string name="str_gb_marktplatz">Mercado</string>
+    <string name="str_gb_marktplatz_klein">Mercado pequeño</string>
+    <string name="str_gb_marktplatz_mittel">Mercado mediano</string>
+    <string name="str_gb_marktplatz_gross">Mercado grande</string>
+    <string name="str_gb_marktplatz_riesig">Mercado enorme</string>
+    <string name="str_gb_medikus">Pueste médico</string>
+    <string name="str_gb_pier">Muelle</string>
+    <string name="str_gb_proviantmagazin">Casa de Provisiones</string>
+    <string name="str_gb_reparaturkran">Grúa de reparación</string>
+    <string name="str_gb_schatzkammer">Tesorería</string>
+    <string name="str_gb_schiffsbauer">Ingeniero naval</string>
+    <string name="str_gb_schuldturm">Prisión de morosos</string>
+    <string name="str_gb_steinstrasse">Camino de piedra</string>
+    <string name="str_gb_taverne">Taberna</string>
+    <string name="str_gb_turnierplatz">Campo de torneo</string>
+    <string name="str_gb_feldweg">Camino de tierra</string>
+    <string name="str_gb_werft">Astillero</string>
+    <string name="str_gb_zimmermann">Carpintero</string>
+
+    <!-- Produkte -->
+    <string name="str_pr_aepfel">Manzanas</string>
+    <string name="str_pr_bienenwachs">Cera</string>
+    <string name="str_pr_bier">Cerveza</string>
+    <string name="str_pr_brillen">Gafas</string>
+    <string name="str_pr_brokatgewaender">Túnicas brocadas</string>
+    <string name="str_pr_brot">Pan</string>
+    <string name="str_pr_buecher">Libros</string>
+    <string name="str_pr_eisen">Hierro</string>
+    <string name="str_pr_eisenerz">Mineral de hierro</string>
+    <string name="str_pr_faesser">Barriles</string>
+    <string name="str_pr_fisch">Pescado</string>
+    <string name="str_pr_fleisch">Carne</string>
+    <string name="str_pr_gewuerze">Especias</string>
+    <string name="str_pr_glas">Vidrio</string>
+    <string name="str_pr_gold">Oro</string>
+    <string name="str_pr_golderz">Mineral de oro</string>
+    <string name="str_pr_hanf">Cáñamo</string>
+    <string name="str_pr_holz">Madera</string>
+    <string name="str_pr_indigo">Añil</string>
+    <string name="str_pr_kerzen">Velas</string>
+    <string name="str_pr_kerzenhalter">Candelero</string>
+    <string name="str_pr_kohle">Carbón</string>
+    <string name="str_pr_kraeuter">Hierbas</string>
+    <string name="str_pr_kupfererz">Mineral de cobre</string>
+    <string name="str_pr_lederwaemser">Jubones de cuerdo</string>
+    <string name="str_pr_leinengewaender">Prendas de lino</string>
+    <string name="str_pr_mehl">Harina</string>
+    <string name="str_pr_messing">Latón</string>
+    <string name="str_pr_milch">Leche</string>
+    <string name="str_pr_most">Sidra</string>
+    <string name="str_pr_papier">Papel</string>
+    <string name="str_pr_pelze">Pieles</string>
+    <string name="str_pr_pelzmaentel">Abrigos de piel</string>
+    <string name="str_pr_pottasche">Potasa</string>
+    <string name="str_pr_quarz">Cuarzo</string>
+    <string name="str_pr_salz">Sal</string>
+    <string name="str_pr_seide">Seda</string>
+    <string name="str_pr_sole">Salmuera</string>
+    <string name="str_pr_stein">Piedra</string>
+    <string name="str_pr_tierhaeute">Pieles de animal</string>
+    <string name="str_pr_trauben">Uvas</string>
+    <string name="str_pr_vieh">Vacas</string>
+    <string name="str_pr_wein">Vino</string>
+    <string name="str_pr_weizen">Trigo</string>
+    <string name="str_pr_werkzeug">Herramienta</string>
+    <string name="str_pr_wolle">Lana</string>
+    <string name="str_pr_wollgewaender">Prendas de lana</string>
+
+    <!-- Monumente -->
+    <string name="str_mon_amphitheater">Amphitheater</string>
+    <string name="str_mon_apfelgarten">Apfelgarten</string>
+    <string name="str_mon_bibliothek">Bibliothek</string>
+    <string name="str_mon_bienenwachsgarten">Bienenwachsgarten</string>
+    <string name="str_mon_festung">Festung</string>
+    <string name="str_mon_hanfgarten">Hanfgarten</string>
+    <string name="str_mon_kaiserdom">Kaiserdom</string>
+    <string name="str_mon_kraeutergarten">Kräutergarten</string>
+    <string name="str_mon_traubengarten">Traubengarten</string>
+    <string name="str_mon_weizengarten">Weizengarten</string>
+    <string name="str_mon_gesamt">Gesamt</string>
+    <string name="str_mon_phase1">Bauphase 1</string>
+    <string name="str_mon_phase2">Bauphase 2</string>
+    <string name="str_mon_phase3">Bauphase 3</string>
+
+    <!-- Einwohner -->
+    <string name="str_ew_bauer">Pioneros</string>
+    <string name="str_ew_handwerker">Vasallos</string>
+    <string name="str_ew_kaufleute">Mercaderes</string>
+    <string name="str_ew_adlige">Nobles</string>
+
+    <!-- Kategorien -->
+    <string name="str_kat_baumaterialien">Material de construcción</string>
+    <string name="str_kat_nahrung">Comida</string>
+    <string name="str_kat_getraenke">Bebidas</string>
+    <string name="str_kat_kleidung">Ropa</string>
+    <string name="str_kat_besitz">Propiedad</string>
+    <string name="str_kat_infrastruktur">Infraestructura</string>
+    <string name="str_kat_attraktionen">Atracciones</string>
+    <string name="str_kat_shop">Tienda</string>
+    <string name="str_kat_inseln">Islas</string>
+    <string name="str_kat_monumente">Monuments</string>
+    <string name="str_kat_gaerten">Gardens</string>
+
+    <!-- Impressum -->
+    <string name="str_impr_version">Versión 1.3</string>
+    <string name="str_impr_copyright">© 2015 i-use-my-brain.com</string>
+    <string name="str_impr_ubisoft">MyAnnoOnline es un proyecto de i-use-my-brain.com. Esta applicación no tiene nada de ver con Ubisoft Entertainment o BlueByte, todos los gráficos pertenecen y incumben a los siguientes derechos de autor: © 2012 Ubisoft Entertainment. All rights reserved. Anno Online, Blue Byte and the Blue Byte logo are trademarks of Ubisoft Entertainment in the USA and/or other countries. Ubisoft and the Ubisoft logo are trademarks of Ubisoft Entertainment in the USA and/or other countries. Developed by Blue Byte Software.</string>
+    <string name="str_impr_feedback">Enviar comentarios</string>
+    <string name="str_impr_uebersetzungen">El idioma por defecto de esta aplicación es alemán.\nSi hay errores con respecto a lenguaje y vocabulario especial, pedimos por tu ayuda para que nos escribas.\nPara esto usa la función de comentarios, por favor.\n¡Muchas gracias!</string>
+
+    <!-- Sonstige -->
+    <string name="str_zurueck_button">Para cerrar tocar ATRÁS otra vez.</string>
+    <string name="str_sek">sek</string>
+    <string name="str_min">min</string>
+    <string name="str_nur_einkauf">¡Sólo compra!</string>
+    <string name="str_danke_nutzung">¡Gracias por usar!</string>
+    <string name="str_starttext">Bienvenido a MyAnnoOnline.\n\n¡Qué se divierta!</string>
+    <string name="str_coming_soon">Coming soon...</string>
+    <string name="str_dummy">Dummyvalue</string>
+    <string name="str_level">Nivel</string>
+    <string name="str_berechnen">Calcular</string>
+    <string name="str_falsche_eingabe">¡La población total es 0!\nPor favor entra información correcta.</string>
+    <string name="str_dauer">Dauer</string>
+    <string name="str_konstruktionsteile">Konstruktionsteile</string>
+    <string name="str_wissen">Wissen</string>
+    <string name="str_gesamt">Total</string>
+    <string name="str_details">Details</string>
+    <string name="str_infotext_verbrauchstabelle">Number of inhabitants supplied by one workshop</string>
+    
+    <!-- Nicht verwendete aber benötigte -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_error">Error</string>
+
+    <!-- Inseln -->
+    <string name="str_inseln_klein">Kleine Inseln</string>
+    <string name="str_inseln_mittel">Mittlere Inseln</string>
+    <string name="str_inseln_gross">Große Inseln</string>
+    <string name="str_inseln_riesig">Riesige Inseln</string>
+
+    <!-- ChangeLog -->
+    <string name="changelog_full_title">Change Log</string>
+    <string name="changelog_title">What\'s New!</string>
+    <string name="changelog_ok_button">OK</string>
+    <string name="changelog_show_full">more...</string>
+
+    <!-- ErrorActivity -->
+    <string name="str_endError">Close</string>
+    <string name="str_sendError">Send Mail</string>
+    <string name="str_errorHead">Hi MyAnnoOnline-Team,\n\nfollowing error occurred:\n\n</string>
+    <string name="str_errorFoot">\n\nBest regards!</string>
+    <string name="str_errorToast">Uups, something went wrong.</string>
+    <string name="str_errorSubject">Error</string>
+
+</resources>

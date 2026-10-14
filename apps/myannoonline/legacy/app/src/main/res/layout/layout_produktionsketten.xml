@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PRODUKTIONSKETTEN -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView" >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <!-- BAUMATERIALIEN -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                >
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <!-- BAUMATERIALIEN -->
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/zimmermann"
+                        android:drawableRight="@drawable/zimmermann"
+                        android:text="@string/str_kat_baumaterialien"
+                        android:padding="20px"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:gravity="center" />
+                    <!-- Trennlinie -->
+                    <View
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+
+                    <!-- Baumat 1 -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:baselineAligned="false">
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Holz -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_holz"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/holz_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Stein -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_stein"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/stein_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Eisenerz -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_eisenerz"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/eisenerz_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <!-- Baumat 2 -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:baselineAligned="false">
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Kohle -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_kohle"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/kohle_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Eisen -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_eisen"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/eisen_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Werkzeug -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_werkzeug"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/werkzeug_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <!-- Baumat 3 -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:baselineAligned="false">
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Pottasche -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_pottasche"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/pottasche_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Quarz -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_quartz"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/quarz_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Glas -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_glas"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/glas_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <!-- NAHRUNG -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                >
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <!-- NAHRUNG -->
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/nahrung"
+                        android:drawableRight="@drawable/nahrung"
+                        android:text="@string/str_kat_nahrung"
+                        android:padding="20px"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:gravity="center" />
+                    <!-- Trennlinie -->
+                    <View
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+
+                    <!-- Nahrung 1 -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:baselineAligned="false">
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Fisch -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_fisch"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/fisch_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <!-- Nahrung 2 -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:baselineAligned="false">
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Weizen -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_weizen"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/weizen_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Mehl -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_mehl"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/mehl_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Brot -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_brot"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/brot_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <!-- Nahrung 3 -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:baselineAligned="false">
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Gewürze -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_gewuerze"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/gewuerze_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Vieh -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_vieh"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/vieh_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Fleisch -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_fleisch"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/fleisch_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <!-- GETRÄNKE -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                >
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <!-- GETRÄNKE -->
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/getraenke"
+                        android:drawableRight="@drawable/getraenke"
+                        android:text="@string/str_kat_getraenke"
+                        android:padding="20px"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:gravity="center" />
+                    <!-- Trennlinie -->
+                    <View
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+
+                    <!-- Getränke 1 -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:baselineAligned="false">
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Milch -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_milch"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/milch_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <!-- Getränke 2 -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:baselineAligned="false">
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Äpfel -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_aepfel"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/apfel_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Most -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_most"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/most_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <!-- Getränke 3 -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:baselineAligned="false">
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Kräuter -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_kraeuter"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/kraeuter_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Bier -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_bier"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/bier_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <!-- Getränke 4 -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:baselineAligned="false">
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Trauben -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_trauben"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/trauben_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Fässer -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_faesser"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/faesser_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Wein -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_wein"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/wein_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <!-- KLEIDUNG -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                >
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <!-- KLEIDUNG -->
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/kleidung"
+                        android:drawableRight="@drawable/kleidung"
+                        android:text="@string/str_kat_kleidung"
+                        android:padding="20px"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:gravity="center" />
+                    <!-- Trennlinie -->
+                    <View
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+
+                    <!-- Kleidung 1 -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:baselineAligned="false">
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Wolle -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_wolle"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/wolle_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Wollgewänder -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_wollgewaender"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/wollgewaender_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <!-- Kleidung 2 -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:baselineAligned="false">
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Hanf -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_hanf"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/hanf_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Leinengewänder -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_leinengewaender"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/leinengewaender_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <!-- Kleidung 3 -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:baselineAligned="false">
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Tierhäute -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_tierhaeute"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/tierhaeute_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Sole -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_sole"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/sole_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Salz -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_salz"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/salz_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Lederwämser -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_lederwaemser"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/lederwaemser_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <!-- Kleidung 4 -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:baselineAligned="false">
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Pelze -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_pelze"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/pelze_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Pelzmäntel -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_pelzmaentel"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/pelzmaentel_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <!-- Kleidung 5 -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:baselineAligned="false">
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Golderz -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_golderz"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/golderz_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Gold -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_gold"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/gold_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Seide -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_seide"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/seide_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Brokatgewänder -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_brokatgewaender"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/brokatgewaender_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <!-- BESITZ -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                >
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <!-- BESITZ -->
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/besitz"
+                        android:drawableRight="@drawable/besitz"
+                        android:text="@string/str_kat_besitz"
+                        android:padding="20px"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:gravity="center" />
+                    <!-- Trennlinie -->
+                    <View
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+
+                    <!-- Besitz 1 -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:baselineAligned="false">
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Papier -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_papier"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/papier_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Indigo -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_indigo"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/indigo_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Bücher -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_buecher"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/buecher_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <!-- Besitz 2 -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:baselineAligned="false">
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Bienenwachs -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_bienenwachs"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/bienenwachs_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Kerzen -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_kerzen"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/kerzen_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Kerzenleuchter -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_kerzenleuchter"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/kerzenhalter_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <!-- Besitz 4 -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:baselineAligned="false">
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Kupfererz -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_kupfererz"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/kupfererz_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Messing -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_messing"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/messing_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:padding="10px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25">
+                            <!-- Brillen -->
+                            <ImageButton
+                                android:id="@+id/btn_prk_brillen"
+                                android:layout_width="150px"
+                                android:layout_height="150px"
+                                android:src="@drawable/brillen_gross"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+
+        </TableLayout>
+    </RelativeLayout>
+</ScrollView>

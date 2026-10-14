@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 5 INSELN -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Erste Insel -->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10px"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:paddingBottom="20px"
+                android:layout_marginTop="10px">
+
+                <!-- Inselbild -->
+                <ImageView
+                    android:id="@+id/iv_inselLayout5_insel1_img"
+                    android:src="@drawable/anno_online_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10px"
+                    android:layout_marginLeft="10px" />
+
+                <!-- Preis -->
+                <TextView
+                    android:id="@+id/tv_inselLayout5_insel1_rubine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10px" />
+
+                <!-- Vorkommen -->
+                <TextView
+                    android:id="@+id/tv_inselLayout5_insel1_vork"
+                    android:text="Mögliche Vorkommen"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    />
+
+                <!-- Bild der Vorkommen -->
+                <ImageView
+                    android:id="@+id/iv_inselLayout5_insel1_vork"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/zimmermann"
+                    android:layout_marginBottom="15px" />
+
+                <!-- Fruchtbarkeiten -->
+                <TextView
+                    android:id="@+id/tv_inselLayout5_insel1_fruchtb"
+                    android:text="Mögliche Fruchtbarkeiten"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    />
+
+                <!-- Bild der Fruchtbarkeiten -->
+                <ImageView
+                    android:id="@+id/iv_inselLayout5_insel1_fruchtb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/weizen"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Trennbalken -->
+        <View
+            android:layout_marginTop="10px"
+            android:layout_marginRight="20px"
+            android:layout_marginLeft="20px"
+            android:layout_marginBottom="10px"
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="@android:color/darker_gray"/>
+        
+        <!-- Zweite Insel -->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10px"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:paddingBottom="20px">
+
+                <!-- Inselbild -->
+                <ImageView
+                    android:id="@+id/iv_inselLayout5_insel2_img"
+                    android:src="@drawable/anno_online_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10px"
+                    android:layout_marginLeft="10px" />
+
+                <!-- Preis -->
+                <TextView
+                    android:id="@+id/tv_inselLayout5_insel2_rubine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10px" />
+
+                <!-- Vorkommen -->
+                <TextView
+                    android:id="@+id/tv_inselLayout5_insel2_vork"
+                    android:text="Mögliche Vorkommen"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    />
+
+                <!-- Bild der Vorkommen -->
+                <ImageView
+                    android:id="@+id/iv_inselLayout5_insel2_vork"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/zimmermann"
+                    android:layout_marginBottom="15px" />
+
+                <!-- Fruchtbarkeiten -->
+                <TextView
+                    android:id="@+id/tv_inselLayout5_insel2_fruchtb"
+                    android:text="Mögliche Fruchtbarkeiten"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    />
+
+                <!-- Bild der Fruchtbarkeiten -->
+                <ImageView
+                    android:id="@+id/iv_inselLayout5_insel2_fruchtb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/weizen"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Trennbalken -->
+        <View
+            android:layout_marginTop="10px"
+            android:layout_marginRight="20px"
+            android:layout_marginLeft="20px"
+            android:layout_marginBottom="10px"
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="@android:color/darker_gray"/>
+        
+        <!-- Dritte Insel -->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10px"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:paddingBottom="20px">
+
+                <!-- Inselbild -->
+                <ImageView
+                    android:id="@+id/iv_inselLayout5_insel3_img"
+                    android:src="@drawable/anno_online_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10px"
+                    android:layout_marginLeft="10px" />
+
+                <!-- Preis -->
+                <TextView
+                    android:id="@+id/tv_inselLayout5_insel3_rubine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10px" />
+
+                <!-- Vorkommen -->
+                <TextView
+                    android:id="@+id/tv_inselLayout5_insel3_vork"
+                    android:text="Mögliche Vorkommen"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    />
+
+                <!-- Bild der Vorkommen -->
+                <ImageView
+                    android:id="@+id/iv_inselLayout5_insel3_vork"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/zimmermann"
+                    android:layout_marginBottom="15px" />
+
+                <!-- Fruchtbarkeiten -->
+                <TextView
+                    android:id="@+id/tv_inselLayout5_insel3_fruchtb"
+                    android:text="Mögliche Fruchtbarkeiten"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    />
+
+                <!-- Bild der Fruchtbarkeiten -->
+                <ImageView
+                    android:id="@+id/iv_inselLayout5_insel3_fruchtb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/weizen"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Trennbalken -->
+        <View
+            android:layout_marginTop="10px"
+            android:layout_marginRight="20px"
+            android:layout_marginLeft="20px"
+            android:layout_marginBottom="10px"
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="@android:color/darker_gray"/>
+        
+        <!-- Vierte Insel -->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10px"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:paddingBottom="20px">
+
+                <!-- Inselbild -->
+                <ImageView
+                    android:id="@+id/iv_inselLayout5_insel4_img"
+                    android:src="@drawable/anno_online_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10px"
+                    android:layout_marginLeft="10px" />
+
+                <!-- Preis -->
+                <TextView
+                    android:id="@+id/tv_inselLayout5_insel4_rubine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10px" />
+
+                <!-- Vorkommen -->
+                <TextView
+                    android:id="@+id/tv_inselLayout5_insel4_vork"
+                    android:text="Mögliche Vorkommen"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    />
+
+                <!-- Bild der Vorkommen -->
+                <ImageView
+                    android:id="@+id/iv_inselLayout5_insel4_vork"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/zimmermann"
+                    android:layout_marginBottom="15px" />
+
+                <!-- Fruchtbarkeiten -->
+                <TextView
+                    android:id="@+id/tv_inselLayout5_insel4_fruchtb"
+                    android:text="Mögliche Fruchtbarkeiten"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    />
+
+                <!-- Bild der Fruchtbarkeiten -->
+                <ImageView
+                    android:id="@+id/iv_inselLayout5_insel4_fruchtb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/weizen"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Trennbalken -->
+        <View
+            android:layout_marginTop="10px"
+            android:layout_marginRight="20px"
+            android:layout_marginLeft="20px"
+            android:layout_marginBottom="10px"
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="@android:color/darker_gray"/>
+        
+        <!-- Fünfte Insel -->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10px"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:paddingBottom="20px">
+
+                <!-- Inselbild -->
+                <ImageView
+                    android:id="@+id/iv_inselLayout5_insel5_img"
+                    android:src="@drawable/anno_online_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10px"
+                    android:layout_marginLeft="10px" />
+
+                <!-- Preis -->
+                <TextView
+                    android:id="@+id/tv_inselLayout5_insel5_rubine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10px" />
+
+                <!-- Vorkommen -->
+                <TextView
+                    android:id="@+id/tv_inselLayout5_insel5_vork"
+                    android:text="Mögliche Vorkommen"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    />
+
+                <!-- Bild der Vorkommen -->
+                <ImageView
+                    android:id="@+id/iv_inselLayout5_insel5_vork"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/zimmermann"
+                    android:layout_marginBottom="15px" />
+
+                <!-- Fruchtbarkeiten -->
+                <TextView
+                    android:id="@+id/tv_inselLayout5_insel5_fruchtb"
+                    android:text="Mögliche Fruchtbarkeiten"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    />
+
+                <!-- Bild der Fruchtbarkeiten -->
+                <ImageView
+                    android:id="@+id/iv_inselLayout5_insel5_fruchtb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/weizen"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Trennbalken -->
+        <View
+            android:layout_marginTop="10px"
+            android:layout_marginRight="20px"
+            android:layout_marginLeft="20px"
+            android:layout_marginBottom="10px"
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="@android:color/darker_gray"/>
+
+        <!-- Button -->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <!-- Button -->
+                <Button
+                    android:id="@+id/btn_inselLayout5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="OK"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

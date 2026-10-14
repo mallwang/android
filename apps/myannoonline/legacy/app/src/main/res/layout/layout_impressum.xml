@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IMPRESSUM -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- iusemybrain Logo -->
+        <ImageView
+            android:contentDescription="i-use-my-brain Logo"
+            android:layout_marginTop="30dp"
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/android" />
+
+        <!-- Versionsnummer -->
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/tv_impr_version"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/str_impr_version"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <!-- Copyright @ iusemybrain -->
+        <TextView
+            android:id="@+id/tv_impr_copyright"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/str_impr_copyright"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <!-- Button zum Feedback senden  -->
+        <Button
+            android:id="@+id/btn_impr_feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_impr_feedback"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Trennbalken -->
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <!-- Hinweis auf Übersetzungen -->
+        <TextView
+            android:id="@+id/tv_impr_uebersetzungen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/str_impr_uebersetzungen"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp" />
+
+        <!-- Trennbalken -->
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <!-- Copyright @ Ubisoft & BlueByte -->
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/tv_impr_infoText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/str_impr_ubisoft"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:paddingBottom="20px" />
+
+        <!--
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_impr_openSource"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/str_impr_openSource"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_impr_Datenschutzerklaerung"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/str_impr_Datenschutzerklaerung"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+            -->
+
+    </LinearLayout>
+
+</ScrollView>

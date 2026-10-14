@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="utf-8"?><!-- MONUMENT 2 STUFEN -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Monument Gesamt -->
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10px"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.35"
+                        android:orientation="vertical">
+
+                        <!-- Einwohner -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon1_ew"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="20px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/bauer"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+
+                        <!-- Unterhalt -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon1_unt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="5px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/cost"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+
+                        <!-- Radius -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon1_rds"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="5px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/radius"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+
+                        <!-- Platzbedarf -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon1_grsse"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="5px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/groesse"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:orientation="vertical"
+                        android:paddingBottom="20px">
+
+                        <!-- Image -->
+                        <ImageView
+                            android:id="@+id/iv_monLayout3_mon1_img"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="15px"
+                            android:src="@drawable/anno_online_logo" />
+
+                        <!-- Gebäudebezeichnung -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon1_bez"
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_horizontal"
+                            android:text="@string/str_dummy" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.35"
+                        android:orientation="vertical">
+
+                        <!-- Wissen -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon1_wissen"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="20px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/wissen"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+
+                        <!-- Dauer -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon1_dauer"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="5px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/dauer"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+
+                        <!-- Konstruktionsteile -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon1_konstr"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="5px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/konstruktionsteile"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+
+                        <!-- EW Plus -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon1_ewplus"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="5px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/einwohner_plus"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon1_text"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="Small Text"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical">
+                    <!-- Ware 1 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon1_ware1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 2 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon1_ware2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 3 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon1_ware3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 4 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon1_ware4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:orientation="vertical">
+
+                    <!-- Ware 12 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon1_ware12"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 11 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon1_ware11"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 10 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon1_ware10"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 9 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon1_ware9"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical">
+                    <!-- Ware 5 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon1_ware5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 6 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon1_ware6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 7 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon1_ware7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 8 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon1_ware8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+                </LinearLayout>
+            </TableRow>
+
+        </TableLayout>
+
+        <!-- Trennbanlken -->
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2px"
+            android:layout_marginBottom="10px"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="10px"
+            android:background="@android:color/darker_gray" />
+
+        <!-- Monument Phase 1 -->
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10px"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.35"
+                        android:orientation="vertical">
+
+                        <!-- Einwohner -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon2_ew"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="20px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/bauer"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+
+                        <!-- Unterhalt -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon2_unt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="5px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/cost"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+
+                        <!-- Radius -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon2_rds"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="5px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/radius"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+
+                        <!-- Platzbedarf -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon2_grsse"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="5px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/groesse"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:orientation="vertical"
+                        android:paddingBottom="20px">
+
+                        <!-- Image -->
+                        <ImageView
+                            android:id="@+id/iv_monLayout3_mon2_img"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="15px"
+                            android:src="@drawable/anno_online_logo" />
+
+                        <!-- Gebäudebezeichnung -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon2_bez"
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_horizontal"
+                            android:text="@string/str_dummy" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.35"
+                        android:orientation="vertical">
+
+                        <!-- Wissen -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon2_wissen"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="20px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/wissen"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+
+                        <!-- Dauer -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon2_dauer"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="5px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/dauer"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+
+                        <!-- Konstruktionsteile -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon2_konstr"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="5px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/konstruktionsteile"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+
+                        <!-- EW Plus -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon2_ewplus"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="5px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/einwohner_plus"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon2_text"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="Small Text"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical">
+                    <!-- Ware 1 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon2_ware1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 2 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon2_ware2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 3 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon2_ware3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:orientation="vertical">
+                    <!-- Platzhalter -->
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 4 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon2_ware4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 5 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon2_ware5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical">
+                    <!-- Ware 6 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon2_ware6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 7 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon2_ware7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 8 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon2_ware8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+                </LinearLayout>
+            </TableRow>
+
+        </TableLayout>
+
+        <!-- Trennbanlken -->
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2px"
+            android:layout_marginBottom="10px"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="10px"
+            android:background="@android:color/darker_gray" />
+
+        <!-- Monument Phase 2 -->
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10px"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.35"
+                        android:orientation="vertical">
+
+                        <!-- Einwohner -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon3_ew"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="20px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/bauer"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+
+                        <!-- Unterhalt -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon3_unt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="5px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/cost"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+
+                        <!-- Radius -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon3_rds"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="5px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/radius"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+
+                        <!-- Platzbedarf -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon3_grsse"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="5px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/groesse"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:orientation="vertical"
+                        android:paddingBottom="20px">
+
+                        <!-- Image -->
+                        <ImageView
+                            android:id="@+id/iv_monLayout3_mon3_img"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="15px"
+                            android:src="@drawable/anno_online_logo" />
+
+                        <!-- Gebäudebezeichnung -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon3_bez"
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_horizontal"
+                            android:text="@string/str_dummy" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.35"
+                        android:orientation="vertical">
+
+                        <!-- Wissen -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon3_wissen"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="20px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/wissen"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+
+                        <!-- Dauer -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon3_dauer"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="5px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/dauer"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+
+                        <!-- Konstruktionsteile -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon3_konstr"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="5px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/konstruktionsteile"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+
+                        <!-- EW Plus -->
+                        <TextView
+                            android:id="@+id/tv_monLayout3_mon3_ewplus"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20px"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:layout_marginTop="5px"
+                            android:layout_weight="1"
+                            android:background="#ffdedad9"
+                            android:drawableLeft="@drawable/einwohner_plus"
+                            android:gravity="right"
+                            android:paddingBottom="10px"
+                            android:paddingLeft="20px"
+                            android:paddingRight="20px"
+                            android:paddingTop="10px" />
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon3_text"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="Small Text"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical">
+                    <!-- Ware 1 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon3_ware1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 2 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon3_ware2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 3 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon3_ware3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:orientation="vertical">
+                    <!-- Ware 11 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon3_ware11"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 4 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon3_ware4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 5 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon3_ware5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical">
+                    <!-- Ware 6 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon3_ware6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 7 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon3_ware7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+
+                    <!-- Ware 8 -->
+                    <TextView
+                        android:id="@+id/tv_monLayout3_mon3_ware8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="5px"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px"
+                        android:paddingTop="10px" />
+                </LinearLayout>
+            </TableRow>
+
+        </TableLayout>
+
+        <!-- Trennbanlken -->
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2px"
+            android:layout_marginBottom="10px"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="10px"
+            android:background="@android:color/darker_gray" />
+
+        <!-- Button -->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <!-- Button -->
+                <Button
+                    android:id="@+id/btn_monLayout3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="OK" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

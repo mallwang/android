@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Inseln -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:id="@+id/layout_schiffe" >
+
+    <TextView
+        android:id="@+id/tv_schiffe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/str_coming_soon"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="100px"
+        android:layout_alignParentLeft="false" />
+
+    <ImageView
+        android:id="@+id/iv_schiffe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/schiff_gross2"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="false"
+        android:layout_below="@+id/tv_schiffe"
+        android:paddingTop="150px" />
+
+</RelativeLayout>

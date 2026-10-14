@@ -1,0 +1,313 @@
+<!-- ENGLISCHE SPRACHDATEI (STANDARD) -->
+<resources>
+    <!-- Titel der App -->
+    <string name="app_name">MyAnnoOnline</string>
+
+    <!-- Menüpunkte -->
+    <string name="menuepunkt1">Consumption</string>
+    <string name="menuepunkt2">Resource Chains</string>
+    <string name="menuepunkt3">Production Costs</string>
+    <string name="menuepunkt4">Buildings</string>
+    <string name="menuepunkt5">Ships</string>
+    <string name="menuepunkt6">Islands</string>
+    <string name="menuepunkt7">Monuments</string>
+    <string name="menuepunkt8">Consumptiontable</string>
+    <string name="menuepunkt9">About</string>
+    <string name="menuepunkt10">Close</string>
+    
+    <!-- NavigationDrawer Items -->
+    <string-array name="navigation">
+        <item>@string/menuepunkt1</item>
+        <item>@string/menuepunkt2</item>
+        <item>@string/menuepunkt3</item>
+        <item>@string/menuepunkt4</item>
+        <item>@string/menuepunkt5</item>
+        <item>@string/menuepunkt6</item>
+        <item>@string/menuepunkt7</item>
+        <item>@string/menuepunkt8</item>
+        <item>@string/menuepunkt9</item>
+        <item>@string/menuepunkt10</item>
+    </string-array>
+
+    <!-- Produktionsgebäude -->
+    <string name="str_gb_apfelhof">Apple Farm</string>
+    <string name="str_gb_apfelhoefe">Apple Farms</string>
+    <string name="str_gb_backstube">Bakery</string>
+    <string name="str_gb_backstuben">Bakeries</string>
+    <string name="str_gb_brillenmacher">Optician\'s Workshop</string>
+    <string name="str_gb_druckerei">Printing Press</string>
+    <string name="str_gb_druckereien">Printing Presses</string>
+    <string name="str_gb_eisenmine">Iron Mine</string>
+    <string name="str_gb_eisenminen">Iron Mines</string>
+    <string name="str_gb_eisenschmelze">Iron Ore Smelter</string>
+    <string name="str_gb_eisenschmelzen">Iron Ore Smelters</string>
+    <string name="str_gb_fasskueferei">Cooperage</string>
+    <string name="str_gb_fasskuefereien">Cooperages</string>
+    <string name="str_gb_feinschmiede">Metalworks</string>
+    <string name="str_gb_feinschmieden">Metalworks</string>
+    <string name="str_gb_fischer">Fisherman\'s Hut</string>
+    <string name="str_gb_fischer_mehrzahl">Fisherman\'s Huts</string>
+    <string name="str_gb_gerberei">Tannery</string>
+    <string name="str_gb_gerbereien">Tanneries</string>
+    <string name="str_gb_glasschmelze">Glass Smelter</string>
+    <string name="str_gb_goldmine">Gold Mine</string>
+    <string name="str_gb_goldminen">Gold Mines</string>
+    <string name="str_gb_goldschmelze">Gold Ore Smelter</string>
+    <string name="str_gb_goldschmelzen">Gold Ore Smelters</string>
+    <string name="str_gb_hanfplantage">Hemp Plantation</string>
+    <string name="str_gb_hanfplantagen">Hemp Plantations</string>
+    <string name="str_gb_holzfaeller">Lumberjack</string>
+    <string name="str_gb_holzfaeller_mehrzahl">Lumberjacks</string>
+    <string name="str_gb_imker">Apiary</string>
+    <string name="str_gb_imker_mehrzahl">Apiaries</string>
+    <string name="str_gb_kelterei">Winepress</string>
+    <string name="str_gb_keltereien">Winepresses</string>
+    <string name="str_gb_klosterbrauerei">Monastery Brewery</string>
+    <string name="str_gb_klosterbrauereien">Monastery Breweries</string>
+    <string name="str_gb_klostergarten">Monastery Garden</string>
+    <string name="str_gb_klostergaerten">Monastery Gardens</string>
+    <string name="str_gb_koehlerhuette">Charcoal Burner\'s Hut</string>
+    <string name="str_gb_koehlerhuetten">Charcoal Burner\'s Huts</string>
+    <string name="str_gb_kohlebergwerk">Coal Mine</string>
+    <string name="str_gb_kuerschner">Furrier\'s Workshop</string>
+    <string name="str_gb_kuerschner_mehrzahl">Furrier\'s Workshops</string>
+    <string name="str_gb_kupfermine">Copper Mine</string>
+    <string name="str_gb_kupferminen">Copper Mines</string>
+    <string name="str_gb_kupferschmelze">Copper Ore Smelter</string>
+    <string name="str_gb_kupferschmelzen">Copper Ore Smelters</string>
+    <string name="str_gb_lichtzieher">Candle Foundry</string>
+    <string name="str_gb_lichtzieher_mehrzahl">Candle Foundries</string>
+    <string name="str_gb_metzger">Butcher</string>
+    <string name="str_gb_metzger_mehrzahl">Butchers</string>
+    <string name="str_gb_mosthof">Cider Brewery</string>
+    <string name="str_gb_mosthoefe">Cider Breweries</string>
+    <string name="str_gb_muehle">Mill</string>
+    <string name="str_gb_muehlen">Mills</string>
+    <string name="str_gb_papiermuehle">Paper Mill</string>
+    <string name="str_gb_papiermuehlen">Paper Mills</string>
+    <string name="str_gb_pelztierjaeger">Trapper\'s Lodge</string>
+    <string name="str_gb_pelztierjaeger_mehrzahl">Trapper\'s Lodges</string>
+    <string name="str_gb_quarzbruch">Quartz Quarry</string>
+    <string name="str_gb_quarzbrueche">Quartz Quarries</string>
+    <string name="str_gb_rinderfarm">Cattle Farm</string>
+    <string name="str_gb_rinderfarmen">Cattle Farms</string>
+    <string name="str_gb_saline">Salt Works</string>
+    <string name="str_gb_salinen">Salt Works</string>
+    <string name="str_gb_salzstock">Salt Mine</string>
+    <string name="str_gb_salzstoecke">Salt Mines</string>
+    <string name="str_gb_schaffarm">Sheep Farm</string>
+    <string name="str_gb_schaffarmen">Sheep Farms</string>
+    <string name="str_gb_schweinefarm">Pig Farm</string>
+    <string name="str_gb_schweinefarmen">Pig Farm</string>
+    <string name="str_gb_seidenweberei">Silk Weaving Mill</string>
+    <string name="str_gb_seidenwebereien">Silk Weaving Mills</string>
+    <string name="str_gb_spinnerei">Spinner\'s Hut</string>
+    <string name="str_gb_spinnereien">Spinner\'s Huts</string>
+    <string name="str_gb_steinbruch">Mason\'s Workshop</string>
+    <string name="str_gb_waldglashuette">Forest Glassworks</string>
+    <string name="str_gb_webstube">Weaver\'s Hut</string>
+    <string name="str_gb_webstuben">Weaver\'s Huts</string>
+    <string name="str_gb_weingut">Vineyard</string>
+    <string name="str_gb_weingueter">Vineyards</string>
+    <string name="str_gb_weizenfarm">Wheat Farm</string>
+    <string name="str_gb_weizenfarmen">Wheat Farms</string>
+    <string name="str_gb_werkzeugmacher">Toolmaker\'s Workshop</string>
+    <string name="str_gb_ziegenfarm">Goat Farm</string>
+    <string name="str_gb_ziegenfarmen">Goat Farms</string>
+
+    <!-- Shop -->
+    <string name="str_gb_tiefer_steinmetz">Tiefer Steinmetz</string>
+    <string name="str_gb_tiefe_eisenmine">Tiefe Eisenmine</string>
+    <string name="str_gb_tiefer_quarzbruch">Tiefer Quarzbruch</string>
+    <string name="str_gb_tiefes_kohlebergwerk">Tiefes Kohlebergwerk</string>
+    <string name="str_gb_tiefer_salzstock">Tiefer Salzstock</string>
+    <string name="str_gb_tiefer_pelztierjäger">Tiefer Pelztierjäger</string>
+    <string name="str_gb_tiefe_goldmine">Tiefe Goldmine</string>
+    <string name="str_gb_tiefe_kupfermine">Tiefe Kupfermine</string>
+    <string name="str_gb_verbesserter_weizenhof">Verbesserter Weizenhof</string>
+    <string name="str_gb_verwunschene_muehle">Verwunschene Mühle</string>
+    <string name="str_gb_verwunschene_papiermuehle">Verwunschene Papiermühle</string>
+    <string name="str_gb_verbesserte_baeckerei">Verbesserte Bäckerei</string>
+    <string name="str_gb_gewuerzbasar">Gewürzbasar</string>
+    <string name="str_gb_scheune">Scheune</string>
+    <string name="str_gb_silo">Silo</string>
+    <string name="str_gb_museum">Museum</string>
+    <string name="str_gb_stadtarchiv">Stadtarchiv</string>
+    <string name="str_gb_verbesserter_marktplatz">Verbesserter Marktplatz</string>
+
+    <!-- Stadtgebäude -->
+    <string name="str_gb_adligenhaus">Imperial Residence</string>
+    <string name="str_gb_barbier">Barber</string>
+    <string name="str_gb_bauernhaus">Pioneer Residence</string>
+    <string name="str_gb_brunnen">Well</string>
+    <string name="str_gb_dock">Dock</string>
+    <string name="str_gb_feuerwache">Fire Station</string>
+    <string name="str_gb_gildenhalle">Guildhall</string>
+    <string name="str_gb_handelsspeicher">Trade Storehouse</string>
+    <string name="str_gb_handwerkerkate">Vassal Residence</string>
+    <string name="str_gb_kapelle">Chapel</string>
+    <string name="str_gb_kaufmannshaus">Merchants Residence</string>
+    <string name="str_gb_kirche">Church</string>
+    <string name="str_gb_kontor">Harbourmaster</string>
+    <string name="str_gb_lagerhaus">Warehouse</string>
+    <string name="str_gb_leuchtturm">Lighthouse</string>
+    <string name="str_gb_markthaus">Distribution House</string>
+    <string name="str_gb_marktplatz">Marketplace</string>
+    <string name="str_gb_marktplatz_klein">Small Marketplace</string>
+    <string name="str_gb_marktplatz_mittel">Middle Marketplace</string>
+    <string name="str_gb_marktplatz_gross">Big Marketplace</string>
+    <string name="str_gb_marktplatz_riesig">Huge Marketplace</string>
+    <string name="str_gb_medikus">Surgery</string>
+    <string name="str_gb_pier">Pier</string>
+    <string name="str_gb_proviantmagazin">Provision House</string>
+    <string name="str_gb_reparaturkran">Reparaturkran</string>
+    <string name="str_gb_schatzkammer">Treasury</string>
+    <string name="str_gb_schiffsbauer">Naval Engineer</string>
+    <string name="str_gb_schuldturm">Debtor\'s Prison</string>
+    <string name="str_gb_steinstrasse">Stone road</string>
+    <string name="str_gb_taverne">Tavern</string>
+    <string name="str_gb_turnierplatz">Tournament Arena</string>
+    <string name="str_gb_feldweg">Dirt road</string>
+    <string name="str_gb_werft">Shipyard</string>
+    <string name="str_gb_zimmermann">Carpenter\'s Workshop</string>
+
+    <!-- Produkte -->
+    <string name="str_pr_aepfel">Apples</string>
+    <string name="str_pr_bienenwachs">Beeswax</string>
+    <string name="str_pr_bier">Beer</string>
+    <string name="str_pr_brillen">Glasses</string>
+    <string name="str_pr_brokatgewaender">Brocade Robes</string>
+    <string name="str_pr_brot">Bread</string>
+    <string name="str_pr_buecher">Books</string>
+    <string name="str_pr_eisen">Iron</string>
+    <string name="str_pr_eisenerz">Iron Ore</string>
+    <string name="str_pr_faesser">Barrels</string>
+    <string name="str_pr_fisch">Fish</string>
+    <string name="str_pr_fleisch">Meat</string>
+    <string name="str_pr_gewuerze">Spices</string>
+    <string name="str_pr_glas">Glass</string>
+    <string name="str_pr_gold">Gold</string>
+    <string name="str_pr_golderz">Gold Ore</string>
+    <string name="str_pr_hanf">Hemp</string>
+    <string name="str_pr_holz">Wood</string>
+    <string name="str_pr_indigo">Indigo</string>
+    <string name="str_pr_kerzen">Candles</string>
+    <string name="str_pr_kerzenhalter">Candlesticks</string>
+    <string name="str_pr_kohle">Coal</string>
+    <string name="str_pr_kraeuter">Herbs</string>
+    <string name="str_pr_kupfererz">Copper Ore</string>
+    <string name="str_pr_lederwaemser">Leather Jerkins</string>
+    <string name="str_pr_leinengewaender">Linen Garments</string>
+    <string name="str_pr_mehl">Flour</string>
+    <string name="str_pr_messing">Brass</string>
+    <string name="str_pr_milch">Milk</string>
+    <string name="str_pr_most">Cider</string>
+    <string name="str_pr_papier">Paper</string>
+    <string name="str_pr_pelze">Furs</string>
+    <string name="str_pr_pelzmaentel">Fur Coats</string>
+    <string name="str_pr_pottasche">Potash</string>
+    <string name="str_pr_quarz">Quartz</string>
+    <string name="str_pr_salz">Salt</string>
+    <string name="str_pr_seide">Silk</string>
+    <string name="str_pr_sole">Brine</string>
+    <string name="str_pr_stein">Stone</string>
+    <string name="str_pr_tierhaeute">Animal Hides</string>
+    <string name="str_pr_trauben">Grapes</string>
+    <string name="str_pr_vieh">Cattle</string>
+    <string name="str_pr_wein">Wine</string>
+    <string name="str_pr_weizen">Wheat</string>
+    <string name="str_pr_werkzeug">Tools</string>
+    <string name="str_pr_wolle">Wool</string>
+    <string name="str_pr_wollgewaender">Woollen Garments</string>
+
+    <!-- Monumente -->
+    <string name="str_mon_amphitheater">Amphitheater</string>
+    <string name="str_mon_apfelgarten">Apfelgarten</string>
+    <string name="str_mon_bibliothek">Bibliothek</string>
+    <string name="str_mon_bienenwachsgarten">Bienenwachsgarten</string>
+    <string name="str_mon_festung">Festung</string>
+    <string name="str_mon_hanfgarten">Hanfgarten</string>
+    <string name="str_mon_kaiserdom">Kaiserdom</string>
+    <string name="str_mon_kraeutergarten">Kräutergarten</string>
+    <string name="str_mon_traubengarten">Traubengarten</string>
+    <string name="str_mon_weizengarten">Weizengarten</string>
+    <string name="str_mon_gesamt">Gesamt</string>
+    <string name="str_mon_phase1">Bauphase 1</string>
+    <string name="str_mon_phase2">Bauphase 2</string>
+    <string name="str_mon_phase3">Bauphase 3</string>
+
+    <!-- Einwohner -->
+    <string name="str_ew_bauer">Pioneer</string>
+    <string name="str_ew_handwerker">Vassal</string>
+    <string name="str_ew_kaufleute">Merchant</string>
+    <string name="str_ew_adlige">Imperial</string>
+
+    <!-- Kategorien -->
+    <string name="str_kat_baumaterialien">Construction Materials</string>
+    <string name="str_kat_nahrung">Food</string>
+    <string name="str_kat_getraenke">Drinks</string>
+    <string name="str_kat_kleidung">Clothing</string>
+    <string name="str_kat_besitz">Property</string>
+    <string name="str_kat_infrastruktur">Infrastructure</string>
+    <string name="str_kat_attraktionen">Attractions</string>
+    <string name="str_kat_shop">Shop</string>
+    <string name="str_kat_inseln">Islands</string>
+    <string name="str_kat_monumente">Monuments</string>
+    <string name="str_kat_gaerten">Gardens</string>
+
+    <!-- Impressum -->
+    <string name="str_impr_version">Version 1.3</string>
+    <string name="str_impr_copyright">© 2015 i-use-my-brain.com</string>
+    <string name="str_impr_ubisoft">Anno Online Wiki is a fan project of i-use-my-brain.com. This application is not affiliated with Ubisoft Entertainment or Blue Byte, all graphics are subject to the following copyright: © 2012 Ubisoft Entertainment. All rights reserved. Anno Online, Blue Byte and the Blue Byte logo are trademarks of Ubisoft Entertainment in the USA and/or other countries. Ubisoft and the Ubisoft logo are trademarks of Ubisoft Entertainment in the USA and/or other countries. Developed by Blue Byte Software.</string>
+    <string name="str_impr_feedback">Give Feedback</string>
+    <string name="str_impr_uebersetzungen">The default language of this app is German.\nIf there are any faulty anno-specific terms or other passages, please use the feedback functionality to let us know.\nThank you very much!</string>
+
+    <!-- Sonstige -->
+    <string name="str_zurueck_button">Please click BACK again to exit.</string>
+    <string name="str_sek">sec</string>
+    <string name="str_min">min</string>
+    <string name="str_nur_einkauf">Only purchasing</string>
+    <string name="str_danke_nutzung">Thanks for using!</string>
+    <string name="str_starttext">Welcome to MyAnnoOnline.\n\nEnjoy and have fun!</string>
+    <string name="str_coming_soon">Coming soon...</string>
+    <string name="str_dummy">Dummyvalue</string>
+    <string name="str_level">Level</string>
+    <string name="str_berechnen">Calculate</string>
+    <string name="str_falsche_eingabe">Number of inhabitants is 0!\nPlease insert valid data.</string>
+    <string name="str_dauer">Duration</string>
+    <string name="str_konstruktionsteile">Constuctionmaterial</string>
+    <string name="str_wissen">Knowledge</string>
+    <string name="str_gesamt">Total</string>
+    <string name="str_details">Details</string>
+    <string name="str_infotext_verbrauchstabelle">Number of inhabitants supplied by one workshop</string>
+
+    <!-- Nicht verwendete aber benötigte -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_error">Error</string>
+
+    <!-- Inseln -->
+    <string name="str_inseln_klein">Small Island</string>
+    <string name="str_inseln_mittel">Medium Islands</string>
+    <string name="str_inseln_gross">Large Islands</string>
+    <string name="str_inseln_riesig">Huge Islands</string>
+
+    <!-- ChangeLog -->
+    <string name="changelog_full_title">Change Log</string>
+    <string name="changelog_title">What\'s New!</string>
+    <string name="changelog_ok_button">OK</string>
+    <string name="changelog_show_full">more...</string>
+
+    <!-- ErrorActivity -->
+    <string name="str_endError">Close</string>
+    <string name="str_sendError">Send Mail</string>
+    <string name="str_errorHead">Hi MyAnnoOnline-Team,\n\nfollowing error occurred:\n\n</string>
+    <string name="str_errorFoot">\n\nBest regards!</string>
+    <string name="str_errorToast">Uups, something went wrong.</string>
+    <string name="str_errorSubject">Error</string>
+
+    
+</resources>

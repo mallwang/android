@@ -1,0 +1,312 @@
+<!-- DEUTSCHE SPRACHDATEI -->
+<resources>
+    <!-- Titel der App -->
+    <string name="app_name">MyAnnoOnline</string>
+
+    <!-- Menüpunkte -->
+    <string name="menuepunkt1">Verbrauchsrechner</string>
+    <string name="menuepunkt2">Produktionsketten</string>
+    <string name="menuepunkt3">Produktionskosten</string>
+    <string name="menuepunkt4">Gebäude</string>
+    <string name="menuepunkt5">Schiffe</string>
+    <string name="menuepunkt6">Inseln</string>
+    <string name="menuepunkt7">Monumente</string>
+    <string name="menuepunkt8">Verbrauchstabelle</string>
+    <string name="menuepunkt9">Impressum</string>
+    <string name="menuepunkt10">Beenden</string>
+
+    <!-- NavigationDrawer Items -->
+    <string-array name="navigation">
+        <item>@string/menuepunkt1</item>
+        <item>@string/menuepunkt2</item>
+        <item>@string/menuepunkt3</item>
+        <item>@string/menuepunkt4</item>
+        <item>@string/menuepunkt5</item>
+        <item>@string/menuepunkt6</item>
+        <item>@string/menuepunkt7</item>
+        <item>@string/menuepunkt8</item>
+        <item>@string/menuepunkt9</item>
+        <item>@string/menuepunkt10</item>
+    </string-array>
+
+    <!-- Produktionsgebäude -->
+    <string name="str_gb_apfelhof">Apfelhof</string>
+    <string name="str_gb_apfelhoefe">Apfelhöfe</string>
+    <string name="str_gb_backstube">Backstube</string>
+    <string name="str_gb_backstuben">Backstuben</string>
+    <string name="str_gb_brillenmacher">Brillenmacher</string>
+    <string name="str_gb_druckerei">Druckerei</string>
+    <string name="str_gb_druckereien">Druckereien</string>
+    <string name="str_gb_eisenmine">Eisenmine</string>
+    <string name="str_gb_eisenminen">Eisenminen</string>
+    <string name="str_gb_eisenschmelze">Eisenschmelze</string>
+    <string name="str_gb_eisenschmelzen">Eisenschmelzen</string>
+    <string name="str_gb_fasskueferei">Fassküferei</string>
+    <string name="str_gb_fasskuefereien">Fassküfereien</string>
+    <string name="str_gb_feinschmiede">Feinschmiede</string>
+    <string name="str_gb_feinschmieden">Feinschmieden</string>
+    <string name="str_gb_fischer">Fischer</string>
+    <string name="str_gb_fischer_mehrzahl">Fischer</string>
+    <string name="str_gb_gerberei">Gerberei</string>
+    <string name="str_gb_gerbereien">Gerbereien</string>
+    <string name="str_gb_glasschmelze">Glasschmelze</string>
+    <string name="str_gb_goldmine">Goldmine</string>
+    <string name="str_gb_goldminen">Goldminen</string>
+    <string name="str_gb_goldschmelze">Goldschmelze</string>
+    <string name="str_gb_goldschmelzen">Goldschmelzen</string>
+    <string name="str_gb_hanfplantage">Hanfplantage</string>
+    <string name="str_gb_hanfplantagen">Hanfplantagen</string>
+    <string name="str_gb_holzfaeller">Holzfäller</string>
+    <string name="str_gb_holzfaeller_mehrzahl">Holzfäller</string>
+    <string name="str_gb_imker">Imker</string>
+    <string name="str_gb_imker_mehrzahl">Imker</string>
+    <string name="str_gb_kelterei">Kelterei</string>
+    <string name="str_gb_keltereien">Keltereien</string>
+    <string name="str_gb_klosterbrauerei">Klosterbrauerei</string>
+    <string name="str_gb_klosterbrauereien">Klosterbrauereien</string>
+    <string name="str_gb_klostergarten">Klostergarten</string>
+    <string name="str_gb_klostergaerten">Klostergärten</string>
+    <string name="str_gb_koehlerhuette">Köhlerhütte</string>
+    <string name="str_gb_koehlerhuetten">Köhlerhütten</string>
+    <string name="str_gb_kohlebergwerk">Kohlebergwerk</string>
+    <string name="str_gb_kuerschner">Kürschner</string>
+    <string name="str_gb_kuerschner_mehrzahl">Kürschner</string>
+    <string name="str_gb_kupfermine">Kupfermine</string>
+    <string name="str_gb_kupferminen">Kupferminen</string>
+    <string name="str_gb_kupferschmelze">Kupferschmelze</string>
+    <string name="str_gb_kupferschmelzen">Kupferschmelzen</string>
+    <string name="str_gb_lichtzieher">Lichtzieher</string>
+    <string name="str_gb_lichtzieher_mehrzahl">Lichtzieher</string>
+    <string name="str_gb_metzger">Metzger</string>
+    <string name="str_gb_metzger_mehrzahl">Metzger</string>
+    <string name="str_gb_mosthof">Mosthof</string>
+    <string name="str_gb_mosthoefe">Mosthöfe</string>
+    <string name="str_gb_muehle">Mühle</string>
+    <string name="str_gb_muehlen">Mühlen</string>
+    <string name="str_gb_papiermuehle">Papiermühle</string>
+    <string name="str_gb_papiermuehlen">Papiermühlen</string>
+    <string name="str_gb_pelztierjaeger">Pelztierjäger</string>
+    <string name="str_gb_pelztierjaeger_mehrzahl">Pelztierjäger</string>
+    <string name="str_gb_quarzbruch">Quarzbruch</string>
+    <string name="str_gb_quarzbrueche">Quarzbrüche</string>
+    <string name="str_gb_rinderfarm">Rinderfarm</string>
+    <string name="str_gb_rinderfarmen">Rinderfarmen</string>
+    <string name="str_gb_saline">Saline</string>
+    <string name="str_gb_salinen">Salinen</string>
+    <string name="str_gb_salzstock">Salzstock</string>
+    <string name="str_gb_salzstoecke">Salzstöcke</string>
+    <string name="str_gb_schaffarm">Schaffarm</string>
+    <string name="str_gb_schaffarmen">Schaffarmen</string>
+    <string name="str_gb_schweinefarm">Schweinefarm</string>
+    <string name="str_gb_schweinefarmen">Schweinefarmen</string>
+    <string name="str_gb_seidenweberei">Seidenweberei</string>
+    <string name="str_gb_seidenwebereien">Seidenwebereien</string>
+    <string name="str_gb_spinnerei">Spinnerei</string>
+    <string name="str_gb_spinnereien">Spinnereien</string>
+    <string name="str_gb_steinbruch">Steinbruch</string>
+    <string name="str_gb_waldglashuette">Waldglashütte</string>
+    <string name="str_gb_webstube">Webstube</string>
+    <string name="str_gb_webstuben">Webstuben</string>
+    <string name="str_gb_weingut">Weingut</string>
+    <string name="str_gb_weingueter">Weingüter</string>
+    <string name="str_gb_weizenfarm">Weizenfarm</string>
+    <string name="str_gb_weizenfarmen">Weizenfarmen</string>
+    <string name="str_gb_werkzeugmacher">Werkzeugmacher</string>
+    <string name="str_gb_ziegenfarm">Ziegenfarm</string>
+    <string name="str_gb_ziegenfarmen">Ziegenfarmen</string>
+
+    <!-- Shop -->
+    <string name="str_gb_tiefer_steinmetz">Tiefer Steinmetz</string>
+    <string name="str_gb_tiefe_eisenmine">Tiefe Eisenmine</string>
+    <string name="str_gb_tiefer_quarzbruch">Tiefer Quarzbruch</string>
+    <string name="str_gb_tiefes_kohlebergwerk">Tiefes Kohlebergwerk</string>
+    <string name="str_gb_tiefer_salzstock">Tiefer Salzstock</string>
+    <string name="str_gb_tiefer_pelztierjäger">Tiefer Pelztierjäger</string>
+    <string name="str_gb_tiefe_goldmine">Tiefe Goldmine</string>
+    <string name="str_gb_tiefe_kupfermine">Tiefe Kupfermine</string>
+    <string name="str_gb_verbesserter_weizenhof">Verbesserter Weizenhof</string>
+    <string name="str_gb_verwunschene_muehle">Verwunschene Mühle</string>
+    <string name="str_gb_verwunschene_papiermuehle">Verwunschene Papiermühle</string>
+    <string name="str_gb_verbesserte_baeckerei">Verbesserte Bäckerei</string>
+    <string name="str_gb_gewuerzbasar">Gewürzbasar</string>
+    <string name="str_gb_scheune">Scheune</string>
+    <string name="str_gb_silo">Silo</string>
+    <string name="str_gb_museum">Museum</string>
+    <string name="str_gb_stadtarchiv">Stadtarchiv</string>
+    <string name="str_gb_verbesserter_marktplatz">Verbesserter Marktplatz</string>
+
+    <!-- Stadtgebäude -->
+    <string name="str_gb_adligenhaus">Adligenhaus</string>
+    <string name="str_gb_barbier">Barbier</string>
+    <string name="str_gb_bauernhaus">Bauernhaus</string>
+    <string name="str_gb_brunnen">Brunnen</string>
+    <string name="str_gb_dock">Dock</string>
+    <string name="str_gb_feuerwache">Feuerwache</string>
+    <string name="str_gb_gildenhalle">Gildenhalle</string>
+    <string name="str_gb_handelsspeicher">Handelsspeicher</string>
+    <string name="str_gb_handwerkerkate">Handwerkerkate</string>
+    <string name="str_gb_kapelle">Kapelle</string>
+    <string name="str_gb_kaufmannshaus">Kaufmannshaus</string>
+    <string name="str_gb_kirche">Kirche</string>
+    <string name="str_gb_kontor">Kontor</string>
+    <string name="str_gb_lagerhaus">Lagerhaus</string>
+    <string name="str_gb_leuchtturm">Leuchtturm</string>
+    <string name="str_gb_markthaus">Markthaus</string>
+    <string name="str_gb_marktplatz">Marktplatz</string>
+    <string name="str_gb_marktplatz_klein">Kleiner Marktplatz</string>
+    <string name="str_gb_marktplatz_mittel">Mittelgroßer Marktplatz</string>
+    <string name="str_gb_marktplatz_gross">Großer Marktplatz</string>
+    <string name="str_gb_marktplatz_riesig">Riesiger Marktplatz</string>
+    <string name="str_gb_medikus">Medikus</string>
+    <string name="str_gb_pier">Pier</string>
+    <string name="str_gb_proviantmagazin">Proviantmagazin</string>
+    <string name="str_gb_reparaturkran">Reparaturkran</string>
+    <string name="str_gb_schatzkammer">Schatzkammer</string>
+    <string name="str_gb_schiffsbauer">Schiffsbauer</string>
+    <string name="str_gb_schuldturm">Schuldturm</string>
+    <string name="str_gb_steinstrasse">Steinstraße</string>
+    <string name="str_gb_taverne">Taverne</string>
+    <string name="str_gb_turnierplatz">Turnierplatz</string>
+    <string name="str_gb_feldweg">Feldweg</string>
+    <string name="str_gb_werft">Werft</string>
+    <string name="str_gb_zimmermann">Zimmermann</string>
+
+    <!-- Produkte -->
+    <string name="str_pr_aepfel">Äpfel</string>
+    <string name="str_pr_bienenwachs">Bienenwachs</string>
+    <string name="str_pr_bier">Bier</string>
+    <string name="str_pr_brillen">Brillen</string>
+    <string name="str_pr_brokatgewaender">Brokatgewänder</string>
+    <string name="str_pr_brot">Brot</string>
+    <string name="str_pr_buecher">Bücher</string>
+    <string name="str_pr_eisen">Eisen</string>
+    <string name="str_pr_eisenerz">Eisenerz</string>
+    <string name="str_pr_faesser">Fässer</string>
+    <string name="str_pr_fisch">Fisch</string>
+    <string name="str_pr_fleisch">Fleisch</string>
+    <string name="str_pr_gewuerze">Gewürze</string>
+    <string name="str_pr_glas">Glas</string>
+    <string name="str_pr_gold">Gold</string>
+    <string name="str_pr_golderz">Golderz</string>
+    <string name="str_pr_hanf">Hanf</string>
+    <string name="str_pr_holz">Holz</string>
+    <string name="str_pr_indigo">Indigo</string>
+    <string name="str_pr_kerzen">Kerzen</string>
+    <string name="str_pr_kerzenhalter">Kerzenleuchter</string>
+    <string name="str_pr_kohle">Kohle</string>
+    <string name="str_pr_kraeuter">Kräuter</string>
+    <string name="str_pr_kupfererz">Kupfererz</string>
+    <string name="str_pr_lederwaemser">Lederwämser</string>
+    <string name="str_pr_leinengewaender">Leinengewänder</string>
+    <string name="str_pr_mehl">Mehl</string>
+    <string name="str_pr_messing">Messing</string>
+    <string name="str_pr_milch">Milch</string>
+    <string name="str_pr_most">Most</string>
+    <string name="str_pr_papier">Papier</string>
+    <string name="str_pr_pelze">Pelze</string>
+    <string name="str_pr_pelzmaentel">Pelzmäntel</string>
+    <string name="str_pr_pottasche">Pottasche</string>
+    <string name="str_pr_quarz">Quarz</string>
+    <string name="str_pr_salz">Salz</string>
+    <string name="str_pr_seide">Seide</string>
+    <string name="str_pr_sole">Sole</string>
+    <string name="str_pr_stein">Stein</string>
+    <string name="str_pr_tierhaeute">Tierhäute</string>
+    <string name="str_pr_trauben">Trauben</string>
+    <string name="str_pr_vieh">Vieh</string>
+    <string name="str_pr_wein">Wein</string>
+    <string name="str_pr_weizen">Weizen</string>
+    <string name="str_pr_werkzeug">Werkzeug</string>
+    <string name="str_pr_wolle">Wolle</string>
+    <string name="str_pr_wollgewaender">Wollgewänder</string>
+
+    <!-- Monumente -->
+    <string name="str_mon_amphitheater">Amphitheater</string>
+    <string name="str_mon_apfelgarten">Apfelgarten</string>
+    <string name="str_mon_bibliothek">Bibliothek</string>
+    <string name="str_mon_bienenwachsgarten">Bienenwachsgarten</string>
+    <string name="str_mon_festung">Festung</string>
+    <string name="str_mon_hanfgarten">Hanfgarten</string>
+    <string name="str_mon_kaiserdom">Kaiserdom</string>
+    <string name="str_mon_kraeutergarten">Kräutergarten</string>
+    <string name="str_mon_traubengarten">Traubengarten</string>
+    <string name="str_mon_weizengarten">Weizengarten</string>
+    <string name="str_mon_gesamt">Gesamt</string>
+    <string name="str_mon_phase1">Bauphase 1</string>
+    <string name="str_mon_phase2">Bauphase 2</string>
+    <string name="str_mon_phase3">Bauphase 3</string>
+
+    <!-- Einwohner -->
+    <string name="str_ew_bauer">Bauer</string>
+    <string name="str_ew_handwerker">Handwerker</string>
+    <string name="str_ew_kaufleute">Kaufleute</string>
+    <string name="str_ew_adlige">Adlige</string>
+
+    <!-- Kategorien -->
+    <string name="str_kat_baumaterialien">Baumaterialien</string>
+    <string name="str_kat_nahrung">Nahrung</string>
+    <string name="str_kat_getraenke">Getränke</string>
+    <string name="str_kat_kleidung">Kleidung</string>
+    <string name="str_kat_besitz">Besitz</string>
+    <string name="str_kat_infrastruktur">Infrastruktur</string>
+    <string name="str_kat_attraktionen">Attraktionen</string>
+    <string name="str_kat_shop">Shop</string>
+    <string name="str_kat_inseln">Inseln</string>
+    <string name="str_kat_monumente">Monumente</string>
+    <string name="str_kat_gaerten">Gärten</string>
+
+    <!-- Impressum -->
+    <string name="str_impr_version">Version 1.3</string>
+    <string name="str_impr_copyright">© 2015 i-use-my-brain.com</string>
+    <string name="str_impr_ubisoft">Anno Online Wiki ist ein Fanprojekt von i-use-my-brain.com. Diese Anwendung steht in keinem Zusammenhang mit Ubisoft Entertainment oder Blue Byte, alle Grafiken unterstehen dem nachfolgenden Urheberrecht: © 2012 Ubisoft Entertainment. Alle Rechte vorbehalten. Anno Online, Blue Byte und das Blue Byte-Logo sind Warenzeichen von Redstorm Entertainment in den USA und/oder anderen Ländern. Ubisoft und das Ubisoft-Logo sind Warenzeichen von Ubisoft Entertainment in den USA und/oder anderen Ländern. Red Storm Entertainment Inc. ist ein Unternehmen von Ubisoft Entertainment. Entwickelt von Blue Byte Software.</string>
+    <string name="str_impr_feedback">Feedback geben</string>
+    <string name="str_impr_uebersetzungen">Die Standardsprache dieser App ist deutsch.\nSollten dennoch annospezifische Bezeichnungen oder Textpassagen fehlerhaft sein, bitten wir um deine Mithilfe und sind dir dafür auch wirklich dankbar!\nBitte nutze dafür die Feedback-Funktion.</string>
+
+    <!-- Sonstige -->
+    <string name="str_zurueck_button">Zum Beenden bitte erneut ZURÜCK drücken.</string>
+    <string name="str_sek">sek</string>
+    <string name="str_min">min</string>
+    <string name="str_nur_einkauf">Nur Einkauf</string>
+    <string name="str_danke_nutzung">Danke fürs Benutzen!</string>
+    <string name="str_starttext">Willkommen bei MyAnnoOnline.\n\nViel Spaß!</string>
+    <string name="str_coming_soon">Coming soon...</string>
+    <string name="str_dummy">Dummyvalue</string>
+    <string name="str_level">Level</string>
+    <string name="str_berechnen">Berechnen</string>
+    <string name="str_falsche_eingabe">Die Gesamtbewohnerzahl beträgt 0!\nBitte gib korrekte Daten ein.</string>
+    <string name="str_dauer">Dauer</string>
+    <string name="str_konstruktionsteile">Konstruktionsteile</string>
+    <string name="str_wissen">Wissen</string>
+    <string name="str_gesamt">Gesamt</string>
+    <string name="str_details">Details</string>
+    <string name="str_infotext_verbrauchstabelle">Anzahl der versorgten Einwohner je Endbetrieb</string>
+
+    <!-- Nicht verwendete aber benötigte -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_error">Error</string>
+
+    <!-- Inseln -->
+    <string name="str_inseln_klein">Kleine Inseln</string>
+    <string name="str_inseln_mittel">Mittlere Inseln</string>
+    <string name="str_inseln_gross">Große Inseln</string>
+    <string name="str_inseln_riesig">Riesige Inseln</string>
+
+    <!-- ChangeLog -->
+    <string name="changelog_full_title">Änderungshistorie</string>
+    <string name="changelog_title">Neuigkeiten!</string>
+    <string name="changelog_ok_button">OK</string>
+    <string name="changelog_show_full">Mehr...</string>
+
+    <!-- ErrorActivity -->
+    <string name="str_endError">Beenden</string>
+    <string name="str_sendError">E-Mail senden</string>
+    <string name="str_errorHead">Hallo MyAnnoOnline-Team,\n\nfolgender Fehler trat auf:\n\n</string>
+    <string name="str_errorFoot">\n\nBeste Grüße!</string>
+    <string name="str_errorToast">Uups, da lief etwas schief.</string>
+    <string name="str_errorSubject">Fehler</string>
+
+</resources>

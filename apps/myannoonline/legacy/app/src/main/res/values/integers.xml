@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Baumaterialien -->
+    <integer name="int_produktionskosten_holz">7</integer>
+    <integer name="int_produktionskosten_stein">36</integer>
+    <integer name="int_produktionskosten_eisenerz">84</integer>
+    <integer name="int_produktionskosten_kohle">105</integer>
+    <integer name="int_produktionskosten_eisen">420</integer>
+    <integer name="int_produktionskosten_werkzeug">805</integer>
+    <integer name="int_produktionskosten_pottasche">987</integer>
+    <integer name="int_produktionskosten_quarz">1554</integer>
+    <integer name="int_produktionskosten_glas">5271</integer>
+
+    <!-- Nahrung -->
+    <integer name="int_produktionskosten_fisch">8</integer>
+    <integer name="int_produktionskosten_weizen">59</integer>
+    <integer name="int_produktionskosten_mehl">96</integer>
+    <integer name="int_produktionskosten_brot">147</integer>
+    <integer name="int_produktionskosten_vieh">952</integer>
+    <integer name="int_produktionskosten_fleisch">1986</integer>
+
+    <!-- Getränke -->
+    <integer name="int_produktionskosten_milch">16</integer>
+    <integer name="int_produktionskosten_aepfel">114</integer>
+    <integer name="int_produktionskosten_most">152</integer>
+    <integer name="int_produktionskosten_kraeuter">506</integer>
+    <integer name="int_produktionskosten_bier">840</integer>
+    <integer name="int_produktionskosten_trauben">2352</integer>
+    <integer name="int_produktionskosten_faesser">1183</integer>
+    <integer name="int_produktionskosten_wein">5341</integer>
+
+    <!-- Kleidung -->
+    <integer name="int_produktionskosten_wolle">14</integer>
+    <integer name="int_produktionskosten_wollgewaender">27</integer>
+    <integer name="int_produktionskosten_hanf">294</integer>
+    <integer name="int_produktionskosten_leinengewaender">399</integer>
+    <integer name="int_produktionskosten_tierhaeute">476</integer>
+    <integer name="int_produktionskosten_sole">173</integer>
+    <integer name="int_produktionskosten_salz">404</integer>
+    <integer name="int_produktionskosten_lederwaemser">1160</integer>
+    <integer name="int_produktionskosten_pelze">220</integer>
+    <integer name="int_produktionskosten_pelzmaentel">1520</integer>
+    <integer name="int_produktionskosten_golderz">1680</integer>
+    <integer name="int_produktionskosten_gold">4060</integer>
+    <integer name="int_produktionskosten_brokatgewaender">13100</integer>
+
+    <!-- Besitz -->
+    <integer name="int_produktionskosten_papier">133</integer>
+    <integer name="int_produktionskosten_buecher">620</integer>
+    <integer name="int_produktionskosten_kupfererz">318</integer>
+    <integer name="int_produktionskosten_messing">1095</integer>
+    <integer name="int_produktionskosten_bienenwachs">924</integer>
+    <integer name="int_produktionskosten_kerzen">2394</integer>
+    <integer name="int_produktionskosten_kerzenleuchter">4553</integer>
+    <integer name="int_produktionskosten_brillen">4665</integer>
+
+    <!-- Versorgungstabelle -->
+    <integer name="int_versorgung_fisch_bauern">649</integer>
+    <integer name="int_versorgung_fisch_handwerker">909</integer>
+    <integer name="int_versorgung_fisch_kaufleute">1090</integer>
+    <integer name="int_versorgung_fisch_adlige">1239</integer>
+    <integer name="int_versorgung_brot_handwerker">545</integer>
+    <integer name="int_versorgung_brot_kaufleute">681</integer>
+    <integer name="int_versorgung_brot_adlige">757</integer>
+    <integer name="int_versorgung_fleisch_adlige">280</integer>
+    <integer name="int_versorgung_milch_bauern">255</integer>
+    <integer name="int_versorgung_milch_handwerker">354</integer>
+    <integer name="int_versorgung_milch_kaufleute">425</integer>
+    <integer name="int_versorgung_milch_adlige">490</integer>
+    <integer name="int_versorgung_most_handwerker">717</integer>
+    <integer name="int_versorgung_most_kaufleute">877</integer>
+    <integer name="int_versorgung_most_adlige">986</integer>
+    <integer name="int_versorgung_bier_kaufleute">757</integer>
+    <integer name="int_versorgung_bier_adlige">826</integer>
+    <integer name="int_versorgung_wein_adlige">264</integer>
+    <integer name="int_versorgung_wollgewaender_bauern">555</integer>
+    <integer name="int_versorgung_wollgewaender_handwerker">750</integer>
+    <integer name="int_versorgung_wollgewaender_kaufleute">937</integer>
+    <integer name="int_versorgung_wollgewaender_adlige">1071</integer>
+    <integer name="int_versorgung_leinengewaender_handwerker">952</integer>
+    <integer name="int_versorgung_leinengewaender_kaufleute">1190</integer>
+    <integer name="int_versorgung_leinengewaender_adlige">1428</integer>
+    <integer name="int_versorgung_lederwaemser_kaufleute">1785</integer>
+    <integer name="int_versorgung_lederwaemser_adlige">2380</integer>
+    <integer name="int_versorgung_pelzmaentel_kaufleute">1250</integer>
+    <integer name="int_versorgung_pelzmaentel_adlige">1666</integer>
+    <integer name="int_versorgung_brokatgewaender_adlige">476</integer>
+    <integer name="int_versorgung_buecher_kaufleute">396</integer>
+    <integer name="int_versorgung_buecher_adlige">432</integer>
+    <integer name="int_versorgung_kerzenleuchter_adlige">446</integer>
+    <integer name="int_versorgung_brillen_adlige">793</integer>
+</resources>

@@ -1,0 +1,42 @@
+<html>
+  <head>
+      <style type='text/css'>
+        div.title {
+          color:#FFA500;
+          font-size:1.2em;
+          font-weight:bold;
+          margin-top:1em;
+          margin-bottom:0.5em;
+          text-align:center }
+        div.subtitle {
+          color:#FFA500;
+          font-size:0.8em;
+          margin-bottom:1em;
+          text-align:center }
+        div.freetext { color:#FFFFFF }
+        div.list     { color:#FFFFFF }
+      </style>
+    </head>
+  <body>
+    $ 1.3
+      % Version 1.3
+      _ 10.05.2015
+      # Berechnungsfehler in der Gesamtansicht behoben
+      # Monumente verfügbar
+    $ 1.2
+      % Version 1.2
+      _ 07.05.2015
+      * Im Verbrauchsrechner können nun Details angezeigt werden
+      * Inseln verfügbar
+      * Verbrauchstabelle verfügbar
+    $ 1.1
+      % Version 1.1
+      _ 28.04.2015
+      * Fehlerbehandlung
+    $ 1.0
+      % Version 1.0
+      _ 17.04.2015
+      * Erste Veröffentlichung, viel Spaß!
+    $ END_OF_CHANGE_LOG
+  </body>
+</html>

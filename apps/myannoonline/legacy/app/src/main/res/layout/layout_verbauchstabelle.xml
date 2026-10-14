@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <!-- Buttons
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10px">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Verbrauchstabelle"
+            android:layout_weight="0.5"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Steuern"
+            android:layout_weight="0.5"/>
+    </TableRow>
+    -->
+
+    <!-- Ueberschriftsleiste -->
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_marginTop="10px"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:src="@drawable/bauer_gross"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/iv_vbt_bauern"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:src="@drawable/bauer_gross" />
+
+            <ImageView
+                android:id="@+id/iv_vbt_handwerker"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:src="@drawable/handwerker_gross" />
+
+            <ImageView
+                android:id="@+id/iv_vbt_kaufleute"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:src="@drawable/kaufmann_gross" />
+
+            <ImageView
+                android:id="@+id/iv_vbt_adlige"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:src="@drawable/adliger_gross" />
+        </LinearLayout>
+    </TableRow>
+
+    <!-- Trennlinie -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5px"
+        android:layout_margin="10px"
+        android:background="@android:color/darker_gray" />
+
+    <!-- Hinweis -->
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:textSize="22px"
+            android:gravity="center_horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/str_infotext_verbrauchstabelle"
+            android:layout_weight="1"
+            android:textStyle="italic" />
+    </TableRow>
+
+    <!-- Trennlinie -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5px"
+        android:layout_margin="10px"
+        android:background="@android:color/darker_gray" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="20px">
+
+        <LinearLayout
+            android:id="@+id/ll_versorgungstabelle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- Fisch -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_vbt_fisch"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/fisch_gross" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_fisch_bauern"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_fisch_handwerker"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_fisch_kaufleute"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_fisch_adlige"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Trennlinie -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_margin="10px"
+                android:background="@android:color/darker_gray" />
+
+            <!-- Brot -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_vbt_brot"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/brot_gross" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_brot_handwerker"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_brot_kaufleute"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_brot_adlige"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Trennlinie -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_margin="10px"
+                android:background="@android:color/darker_gray" />
+
+            <!-- Fleisch -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_vbt_fleisch"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/fleisch_gross" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_fleisch_adlige"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Trennlinie -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:layout_margin="10px"
+                android:background="@android:color/darker_gray" />
+
+            <!-- Milch -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_vbt_milch"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/milch_gross" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_milch_bauern"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_milch_handwerker"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_milch_kaufleute"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_milch_adlige"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Trennlinie -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_margin="10px"
+                android:background="@android:color/darker_gray" />
+
+            <!-- Most -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_vbt_most"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/most_gross" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_most_handwerker"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_most_kaufleute"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_most_adlige"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Trennlinie -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_margin="10px"
+                android:background="@android:color/darker_gray" />
+
+            <!-- Bier -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_vbt_bier"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/bier_gross" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_bier_kaufleute"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_bier_adlige"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Trennlinie -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_margin="10px"
+                android:background="@android:color/darker_gray" />
+
+            <!-- Wein -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_vbt_wein"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/wein_gross" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_wein_adlige"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Trennlinie -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:layout_margin="10px"
+                android:background="@android:color/darker_gray" />
+
+            <!-- Wollgewaender -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_vbt_wollgewaender"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/wollgewaender_gross" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_wollgewaender_bauern"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_wollgewaender_handwerker"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_wollgewaender_kaufleute"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_wollgewaender_adlige"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Trennlinie -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_margin="10px"
+                android:background="@android:color/darker_gray" />
+
+            <!-- Leinengewaender -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_vbt_leinengewaender"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/leinengewaender_gross" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_leinengewaender_handwerker"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_leinengewaender_kaufleute"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_leinengewaender_adlige"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Trennlinie -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_margin="10px"
+                android:background="@android:color/darker_gray" />
+
+            <!-- Lederwaemser -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_vbt_lederwaemser"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/lederwaemser_gross" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_lederwaemser_kaufleute"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_lederwaemser_adlige"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Trennlinie -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_margin="10px"
+                android:background="@android:color/darker_gray" />
+
+            <!-- Pelzmaentel -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_vbt_pelzmaentel"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/pelzmaentel_gross" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_pelzmaentel_kaufleute"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_pelzmaentel_adlige"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Trennlinie -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_margin="10px"
+                android:background="@android:color/darker_gray" />
+
+            <!-- Brokatgewaender -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_vbt_brokatgewaender"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/brokatgewaender_gross" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_brokatgewaender_adlige"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Trennlinie -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:layout_margin="10px"
+                android:background="@android:color/darker_gray" />
+
+            <!-- Buecher -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_vbt_buecher"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/buecher_gross" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_buecher_kaufleute"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_buecher_adlige"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Trennlinie -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_margin="10px"
+                android:background="@android:color/darker_gray" />
+
+            <!-- Kerzenleuchter -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_vbt_kerzenleuchter"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/kerzenhalter_gross" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_kerzenleuchter_adlige"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Trennlinie -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_margin="10px"
+                android:background="@android:color/darker_gray" />
+
+            <!-- Brillen -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_vbt_brillen"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/brillen_gross" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:text="-"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_vbt_brillen_adlige"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+        </LinearLayout>
+    </ScrollView>
+
+</TableLayout>
