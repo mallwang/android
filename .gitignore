@@ -1,0 +1,24 @@
+# Not-yet-modernized legacy apps stay local
+/legacy/
+
+# Build output
+node_modules/
+dist/
+www/
+.angular/
+android/build/
+android/app/build/
+android/.gradle/
+.gradle/
+.sass-cache/
+
+# Secrets (never commit)
+*.keystore
+*.jks
+Android-Keyring
+local.properties
+
+# Editor
+.vscode/
+.idea/
+*.iml
