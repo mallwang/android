@@ -1,0 +1,12 @@
+android/
+coverage/
+dist/
+documentation/
+lib/
+node_modules/
+www/
+
+# Angular environment files
+environment.ts
+environment.prod.ts
+cities.ts

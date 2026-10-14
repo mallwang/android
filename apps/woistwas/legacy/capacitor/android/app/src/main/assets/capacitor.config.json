@@ -1,0 +1,10 @@
+{
+	"appId": "de.iusemybrain.woistwas",
+	"appName": "woistwas-capacitor",
+	"webDir": "www",
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 0
+		}
+	}
+}

@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-searchbar
+      [animated]="true"
+      [searchIcon]="'search'"
+      [showCancelButton]="'focus'"
+      [debounce]="750"
+      [placeholder]="'Ort oder Postleitzahl'"
+      (ionChange)="filterCities($event.target.value)"
+    ></ion-searchbar>
+    <ion-buttons slot="end">
+      <ion-button (click)="filterByCurrentLocation()">
+        <ion-icon slot="icon-only" name="locate"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-item lines="none" *ngIf="foundCitites.length > 0">
+  <ion-label class="ion-text-wrap" style="font-size: small">
+    Hinweis: Es werden maximal {{numbersPerIteration}} Orte im Umkreis von maximal {{maxDistanceKm}} km angezeigt.
+  </ion-label>
+</ion-item>
+
+<ion-content>
+  <ion-list *ngIf="statusMessage">
+    <ion-item> {{statusMessage}} </ion-item>
+  </ion-list>
+  <ion-list *ngIf="foundCitites.length > 0">
+    <ion-item *ngFor="let city of foundCitites">
+      <ion-label>
+        <h2>{{city[0]}} {{city[1]}}</h2>
+        <h3>{{city[3]}}</h3>
+        <p *ngIf="city[6]">{{city[2]}} - {{city[6]}} km entfernt</p>
+        <p *ngIf="!city[6]">{{city[2]}}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

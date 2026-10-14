@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wo ist was?!</string>
+	<string name="insertCity">Stadtname oder Postleitzahl:</string>
+	<string name="mainHelp">Hier wird ein Hilfetext angezeigt, um den Benutzer eine Hilfestellung zu bieten.</string>
+	<string name="error_ok">OK</string>
+	<string name="suche_gps">Suche per GPS</string>
+	<string name="suche_manuell">Manuelle Suche</string>
+	<string name="sehenswuerdigkeiten">Sehenswürdigkeiten</string>
+	<string name="parks">Parks</string>
+	<string name="museen">Museen</string>
+	<string name="help">Hilfe</string>
+
+</resources>

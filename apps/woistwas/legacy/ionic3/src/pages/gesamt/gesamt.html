@@ -1,0 +1,19 @@
+<ion-content>
+  <!--
+  <ion-list>
+    <button ion-item *ngFor="let item of items" (click)="clickEvent(item)" (press)="pressEvent(item)">
+      {{ item }}
+    </button>
+  </ion-list>
+  -->
+  <ion-list>
+    <ion-item *ngFor="let stadt of tempStaedte" (click)="clickEvent(stadt)" (press)="pressEvent(stadt)">
+      <h2>{{stadt[0]}} {{stadt[1]}}</h2>
+      <h3>{{stadt[3]}}</h3>
+      <p>{{stadt[2]}}</p>
+    </ion-item>
+  </ion-list>
+  <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
+    <ion-infinite-scroll-content></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+</ion-content>

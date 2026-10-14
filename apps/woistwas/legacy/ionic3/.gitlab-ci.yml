@@ -1,0 +1,32 @@
+image: beevelop/ionic:latest
+
+# =============================================================================
+# Stages which will be called in CI pipeline.
+# =============================================================================
+stages:
+#  - test
+#  - build
+  - deploy
+
+# =============================================================================
+# Deploy jobs to be run
+# =============================================================================
+# Deploy DEV environment for every development branch.
+# =============================================================================
+deploy:DEV:
+  stage: deploy
+  tags:
+    - gitlab-org
+  script:
+    - rm -rf node_modules
+    - npm install
+    #Create folder www so that Cordova is able to recognize it as a Cordova project (alternatively, npm run ionic:build could be run)
+    - mkdir -p ./www
+    #ionic resouces has to be executed when using different OS on which ionic is running (see here: http://stackoverflow.com/a/40458796)
+    - ionic cordova platform add android
+    - ionic cordova build android --prod --release --buildConfig=build.json
+  artifacts:
+    name: "WoIstWas_${CI_COMMIT_REF_SLUG}"
+    paths:
+      - ./platforms/android/build/outputs/apk/android-release.apk
+    expire_in: 1 hour

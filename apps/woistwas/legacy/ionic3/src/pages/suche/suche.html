@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-navbar color="orange">
+    <ion-searchbar
+      [showCancelButton]="true"
+      [debounce]="100"
+      [placeholder]="'Ort oder Postleitzahl'"
+      [type]="'search'"
+      (search)="getItems($event)"></ion-searchbar>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="filterByLocation($event)">
+        <ion-icon name="locate"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item-sliding *ngFor="let stadt of foundStaedte">
+      <ion-item>
+        <h2>{{stadt[0]}} {{stadt[1]}}</h2>
+        <h3>{{stadt[3]}}</h3>
+        <p>{{stadt[2]}}</p>
+      </ion-item>
+      <ion-item-options side="left" *ngIf="stadt[4]">
+        <button ion-button color="light" (click)="copyContent(stadt[0])">
+          <ion-icon name="copy"></ion-icon>
+          PLZ
+        </button>
+        <button ion-button color="orange" (click)="copyContent(stadt[1])">
+          <ion-icon name="copy"></ion-icon>
+          Ort
+        </button>
+        <button ion-button color="light" (click)="copyContent(stadt[0] + ' ' + stadt[1])">
+          <ion-icon name="copy"></ion-icon>
+          All
+        </button>
+      </ion-item-options>
+      <ion-item-options side="right" *ngIf="stadt[4]">
+        <button ion-button color="light" (click)="copyContent(stadt[0])">
+          <ion-icon name="copy"></ion-icon>
+          PLZ
+        </button>
+        <button ion-button color="orange" (click)="copyContent(stadt[1])">
+          <ion-icon name="copy"></ion-icon>
+          Ort
+        </button>
+        <button ion-button color="light" (click)="copyContent(stadt[0] + ' ' + stadt[1])">
+          <ion-icon name="copy"></ion-icon>
+          All
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+  <ion-infinite-scroll *ngIf="tempStaedte.length > displayedCities" (ionInfinite)="doInfinite($event)">
+    <ion-infinite-scroll-content></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+</ion-content>

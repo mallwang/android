@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- Platzname -->
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/stadtname"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="Stadtname"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+
+    <!-- Beschreibung -->
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/beschreibung"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scrollbars="vertical"
+            android:text="Beschreibung"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+
+    <!-- Zwei Buttons (Auf Karte anzeigen / Navigieren) -->
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_height="fill_parent"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/btnAnzeigen"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:onClick="showOnMap()"
+            android:text="Karte" />
+        
+        <Button
+            android:id="@+id/btnNavigieren"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:onClick="navigate()"
+            android:text="Navigieren" />
+    </TableRow>
+
+</TableLayout>

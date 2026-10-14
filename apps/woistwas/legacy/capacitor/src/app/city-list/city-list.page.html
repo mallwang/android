@@ -1,0 +1,21 @@
+<ion-item lines="none">
+  <ion-label class="ion-text-wrap" style="font-size: small">
+    Hinweis: Es werden alle Städte Deutschlands in alphabetischer Reihenfolge aufgelistet, eine Sortier- oder
+    Filterfunktion ist aktuell noch nicht verfügbar.
+  </ion-label>
+</ion-item>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item *ngFor="let city of tempCities" (click)="clickEvent(city)" (press)="pressEvent(city)">
+      <ion-label>
+        <h2>{{city[0]}} {{city[1]}}</h2>
+        <h3>{{city[3]}}</h3>
+        <p>{{city[2]}}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+  <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
+    <ion-infinite-scroll-content></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+</ion-content>

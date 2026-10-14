@@ -1,0 +1,23 @@
+# All folders except e2e, scripts and src
+android
+coverage
+dist
+documentation
+node_modules
+www
+
+# All files in the directory
+/*.*
+
+# All non JavaScript or TypeScript files
+**/*.html
+**/*.json
+**/*.md
+**/*.scss
+
+# Some special files
+protractor.conf.js
+environment.ts
+environment.prod.ts
+cities.ts
+zone-flags.ts
